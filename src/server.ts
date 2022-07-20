@@ -2,6 +2,7 @@ import express from 'express';
 import dotenv from 'dotenv';
 import morgan from 'morgan';
 import connectDB from './config/db';
+import ErrorHandler from './middleware/error';
 
 import path from 'path';
 dotenv.config({ path: './src/config/config.env' });
@@ -28,6 +29,9 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Mount Routers
 app.use('/api/v1/dogs', dogRoutes);
+
+// Error Handling
+app.use(ErrorHandler)
 
 
 const server = app.listen(PORT, () => console.log(`Server is running ${process.env.NODE_ENV} mode on port ${PORT}`));
