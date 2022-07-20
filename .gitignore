@@ -1,7 +1,10 @@
 # See http://help.github.com/ignore-files/ for more about ignoring files.
 
 # environment files in config
-config/config.env
+/src/config/config.env
+
+# data files
+src/_data
 
 # compiled output
 /dist
