@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const DogSchema: DTO.Dog = new mongoose.Schema({
+const DogSchema = new mongoose.Schema({
   name: {
     type: String,
     required: [true, 'What is the dogs name?'],

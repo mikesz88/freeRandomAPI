@@ -1,4 +1,4 @@
-import mongoose from "mongoose";
+const mongoose = require("mongoose");
 const dotenv = require('dotenv');
 const { createDogPool } = require('./_data/dog');
 
@@ -6,7 +6,7 @@ dotenv.config({ path: '../src/config/config.env' });
 
 const Dog = require("./models/dog");
 
-mongoose.connect(process.env.MONGO_URI as string);
+mongoose.connect(process.env.MONGO_URI);
 
 
 const importData = async () => {

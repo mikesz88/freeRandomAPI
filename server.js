@@ -1,17 +1,17 @@
-import express from 'express';
-import dotenv from 'dotenv';
-import morgan from 'morgan';
-import connectDB from './config/db';
-import ErrorHandler from './middleware/error';
+const express = require('express');
+const dotenv = require('dotenv');
+const morgan = require('morgan');
+const connectDB = require('./config/db');
+const errorHandler = require('./middleware/error');
 
-import path from 'path';
-dotenv.config({ path: './src/config/config.env' });
+const path = require('path');
+dotenv.config({ path: 'config/config.env' });
 
 
 connectDB();
 
 
-import dogRoutes from './routes/dogs';
+const dogRoutes = require('./routes/dogs');
 
 const PORT = process.env.PORT || 5000;
 
@@ -31,12 +31,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/api/v1/dogs', dogRoutes);
 
 // Error Handling
-app.use(ErrorHandler)
+app.use(errorHandler)
 
 
 const server = app.listen(PORT, () => console.log(`Server is running ${process.env.NODE_ENV} mode on port ${PORT}`));
 
-process.on('unhandledRejection', (err: Error) => {
+process.on('unhandledRejection', (err) => {
   console.log(`Error: ${err.message}`);
   server.close(() => process.exit(1));
 })
