@@ -3,9 +3,6 @@
 # environment files in config
 config/config.env
 
-# data files
-src/_data
-
 # compiled output
 /dist
 /tmp
