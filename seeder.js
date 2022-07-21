@@ -1,8 +1,8 @@
 const mongoose = require("mongoose");
 const dotenv = require('dotenv');
-const { createDogPool } = require('./_data/dog');
+const createDogPool = require('./_data/dog');
 
-dotenv.config({ path: '../src/config/config.env' });
+dotenv.config({ path: 'config/config.env' });
 
 const Dog = require("./models/dog");
 

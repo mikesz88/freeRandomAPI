@@ -1,6 +1,6 @@
 const { faker } = require('@faker-js/faker');
 const axios = require('axios');
-const { subtractYears } = require('../utils/date')
+const subtractYears = require('../utils/date')
 
 const getDogPicture = async (breed, type) => {
   if (typeof type !== 'undefined') {
@@ -48,16 +48,22 @@ const getDogBreeds = async () => {
   return await listDogBreeds(data.message);
 }
 
-export const createDogPool = async () => {
+const createDogPool = async () => {
   const dogPool = []
   const dogProfiles = await getDogBreeds();
 
-for (let index = 0; index < dogProfiles.length; index++) {
+for (let index = 0; index < 500; index++) {
+  const typeOfDog = faker.helpers.arrayElement(dogProfiles);
   const name = faker.name.firstName();
   const age = faker.datatype.number({ min: 1, max: 15});
   const birthday = subtractYears(age, new Date());
-  const breed = dogProfiles[index].breed;
-  const photoUrl = dogProfiles[index].photoUrl;
+  const breed = typeOfDog.breed;
+  const photoUrl = !(dogProfiles.find(dog => dog.photoUrl === typeOfDog.photoUrl))
+  ? typeOfDog.photoUrl 
+  : typeOfDog.breed.split(' ').length === 2 
+  ? await getDogPicture(typeOfDog.breed.split(' ')[1], typeOfDog.breed.split(' ')[0]) 
+  : await getDogPicture(typeOfDog.breed);
+  /* typeOfDog.photoUrl */
 
   dogPool.push({
     name,
@@ -70,3 +76,5 @@ for (let index = 0; index < dogProfiles.length; index++) {
 
   return dogPool;
 };
+
+module.exports = createDogPool;
