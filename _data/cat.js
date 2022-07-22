@@ -18,22 +18,21 @@ const getCatBreeds = async () => {
   })
 }
 
-// getCatBreeds();
-const createCatPool = async () =>  {
+const createCatPool = async () => {
   const catPool = [];
   const catProfiles = await getCatBreeds();
 
   for (let index = 0; index < 1000; index++) {
     const typeOfCat = faker.helpers.arrayElement(catProfiles);
     const name = faker.name.firstName();
-    const age = faker.datatype.number({ min: 1, max: 20});
-    const birthday = subtractYears(age);  
+    const age = faker.datatype.number({ min: 1, max: 20 });
+    const birthday = subtractYears(age);
     const breed = typeOfCat.breed;
     let currentPhoto = await getCatImage(typeOfCat.id);
     const photoUrl = !(catPool.find(profile => profile.photoUrl === currentPhoto))
-    ? currentPhoto
-    : await getCatImage(typeOfCat.id);
-  
+      ? currentPhoto
+      : await getCatImage(typeOfCat.id);
+
     catPool.push({
       name,
       age,
