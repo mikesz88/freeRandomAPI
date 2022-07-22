@@ -30,6 +30,9 @@ Table of Contents
     - It allows you to choose what language in order to call the data.
   - ### [Good Enough](https://freerandomapi.herokuapp.com/)
     - This is the minimalist version of documentation! ;) 
+  - ### Current API Categories
+    - Dog Profiles With Images
+    - Cat Profiles With Images
 
 ## How to contribute? <a name="contribute"></a>
 - Here is a [great link](https://github.com/firstcontributions/first-contributions) that will explain step by step how to do it!
