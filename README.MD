@@ -12,7 +12,6 @@ Table of Contents
 3. [How to contribute?](#contribute)
 4. [Ideas?](#ideas)
 5. [Want to know when we add changes?](#stayInformed)
-6. <a href="http://example.com/" target="_blank">Hello, world!</a>
 
 
 
