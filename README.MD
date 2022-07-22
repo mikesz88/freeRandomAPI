@@ -1,7 +1,7 @@
 # Free Random APIs
 
 ## Open Source Repository for students to practice:
-- Calling APIs
+- calling APIs
 - contributing to an Open Source Code for first-timers
 - practicing writing backend code
 ---
