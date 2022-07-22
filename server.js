@@ -18,6 +18,7 @@ connectDB();
 
 
 const dogRoutes = require('./routes/dogs');
+const catRoutes = require('./routes/cats');
 
 const PORT = process.env.PORT || 5000;
 
@@ -48,6 +49,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // Mount Routers
 app.use('/api/v1/dogs', dogRoutes);
+app.use('/api/v1/cats', catRoutes);
 
 // Error Handling
 app.use(errorHandler)

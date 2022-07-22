@@ -52,18 +52,17 @@ const createDogPool = async () => {
   const dogPool = []
   const dogProfiles = await getDogBreeds();
 
-for (let index = 0; index < 500; index++) {
+for (let index = 0; index < 1000; index++) {
   const typeOfDog = faker.helpers.arrayElement(dogProfiles);
   const name = faker.name.firstName();
   const age = faker.datatype.number({ min: 1, max: 15});
-  const birthday = subtractYears(age, new Date());
+  const birthday = subtractYears(age);
   const breed = typeOfDog.breed;
   const photoUrl = !(dogProfiles.find(dog => dog.photoUrl === typeOfDog.photoUrl))
   ? typeOfDog.photoUrl 
   : typeOfDog.breed.split(' ').length === 2 
   ? await getDogPicture(typeOfDog.breed.split(' ')[1], typeOfDog.breed.split(' ')[0]) 
   : await getDogPicture(typeOfDog.breed);
-  /* typeOfDog.photoUrl */
 
   dogPool.push({
     name,
@@ -72,6 +71,7 @@ for (let index = 0; index < 500; index++) {
     breed,
     photoUrl
   })
+  console.log(index);
 };
 
   return dogPool;

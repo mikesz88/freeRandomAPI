@@ -1,11 +1,11 @@
 const express = require('express');
-const Dog = require('../models/dog');
+const Cat = require('../models/cat');
 const asyncHandler = require('../middleware/async');
 
 // @desc Get all dogs
 // @route GET /api/v1/dogs
 // @access PUBLIC
-exports.getDogs = asyncHandler( async (req, res, next) => {
+exports.getCats = asyncHandler( async (req, res, next) => {
   res.status(200).json(res.filteredResults);
 });
 
