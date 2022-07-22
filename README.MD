@@ -25,14 +25,14 @@ Table of Contents
 - ![GIT](https://camo.githubusercontent.com/bd2bd127c104ba5c98bb12c70801b075aee1f040009089510f69554300e7ff41/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4769742d4630353033323f7374796c653d666f722d7468652d6261646765266c6f676f3d676974266c6f676f436f6c6f723d7768697465)
 ## Documentation - How to call the data? <a name="documentation"></a>
 - ## You have two options:
-  - ### <a href="https://documenter.getpostman.com/view/18924529/UzR1M3Jq" target="_blank">Much Better Documentation</a> 
+  - ### [Much Better Documentation](https://documenter.getpostman.com/view/18924529/UzR1M3Jq)
     - This takes you to the Postman link that is a lot more user friendly.
     - It allows you to choose what language in order to call the data.
-  - ### <a href="https://freerandomapi.herokuapp.com/" target="_blank">Good Enough</a> 
+  - ### [Good Enough](https://freerandomapi.herokuapp.com/)
     - This is the minimalist version of documentation! ;) 
 
 ## How to contribute? <a name="contribute"></a>
-- Here is a <a href="https://github.com/firstcontributions/first-contributions" target="_blank">great link</a> that will explain step by step how to do it!
+- Here is a [great link](https://github.com/firstcontributions/first-contributions) that will explain step by step how to do it!
 - Once you have completed the step of creating a branch you will need to contact me to get credentials to access the database. 
 - ### How to reach me:
   -  Create an **ISSUE** and explaining that you need credentials. You will need to provide an **email or discord** in the **issue** in order for me to send you the credentials.
@@ -42,5 +42,4 @@ Table of Contents
 - If you have an idea you want to contribute in our next feature, create an **ISSUE** and I will do my best to help!
 
 ## Stay informed <a name="stayInformed"></a>
-
-- <a href="https://skilled-pioneer-4030.ck.page/1e32213d7f" target="_blank">Click here to subscribe!</a> I will only email you of new and exciting changes for you try with the data! :) 
+- [Click here to subscribe!](https://skilled-pioneer-4030.ck.page/1e32213d7f) I will only email you of new and exciting changes for you try with the data! :) 
