@@ -33,6 +33,7 @@ Table of Contents
   - ### Current API Categories
     - Dog Profiles With Images
     - Cat Profiles With Images
+    - National Museums in USA With Images
 
 ## How to contribute? <a name="contribute"></a>
 - Here is a [great link](https://github.com/firstcontributions/first-contributions) that will explain step by step how to do it!
