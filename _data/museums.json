@@ -1,0 +1,662 @@
+[
+  {
+    "name": "National Atomic Testing Museum",
+    "location": "Las Vegas, Nevada, United States",
+    "coordinates": "36.11416°N 115.1486°W",
+    "type": "History museum",
+    "category": "Atomic/Nuclear",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fb/ATOMIC_TESTING_MUSEUM_01.JPG",
+    "photoAttribute": "By Photo by zzyzx - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=711841",
+    "website": "http://nationalatomictestingmuseum.org/"
+  },
+  {
+    "name": "National Museum of Nuclear Science & History",
+    "location": "601 Eubank SE (at Southern Blvd) Albuquerque address New Mexico",
+    "coordinates": "35.0660°N 106.5339°W",
+    "type": "Aviation and science museum",
+    "category": "Atomic/Nuclear",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/NukeMusem.jpg/1280px-NukeMusem.jpg",
+    "photoAttribute": "By FLJuJitsu - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=105992755",
+    "website": "https://www.nuclearmuseum.org/"
+  },
+  {
+    "name": "Air Force Armament Museum",
+    "location": "Eglin Air Force Base, Valparaiso, Florida",
+    "coordinates": "30.46625°N 86.56154°W",
+    "type": "Military aviation museum",
+    "category": "Air Force",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/MOAB_glide_bomb.jpg",
+    "photoAttribute": "By Greg Goebel - https://www.flickr.com/photos/37467370@N08/7466268008, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=20346312",
+    "website": "http://www.afarmamentmuseum.com/"
+  },
+  {
+    "name": "Air Mobility Command Museum",
+    "location": "Dover Air Force Base",
+    "coordinates": "39.118692°N 75.456643°W",
+    "type": "Aviation museum",
+    "category": "Air Force",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/AMCMuseum_Aerial.JPG/1920px-AMCMuseum_Aerial.JPG",
+    "photoAttribute": "By Teamski1 - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=35734000",
+    "website": "http://amcmuseum.org/"
+  },
+  {
+    "name": "National Museum of the United States Air Force",
+    "location": "Wright-Patterson Air Force Base, Dayton, Ohio",
+    "coordinates": "39°46′53″N 84°06′38″W",
+    "type": "Military aviation museum",
+    "category": "Air Force",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/National_Museum_of_the_United_States_Air_Force.png",
+    "photoAttribute": "By United States Air Force (User:Pmsyyz converted from JPEG to PNG, added transparency, resized to 1000px wide) - http://www.af.mil/shared/media/ggallery/hires/AFG-070409-005.jpg, Public Domain, https://commons.wikimedia.org/w/index.php?curid=1770508",
+    "website": "http://www.nationalmuseum.af.mil/"
+  },
+  {
+    "name": "Strategic Air Command & Aerospace Museum",
+    "location": "Ashland, Nebraska (1998–Present) Offutt AFB (1959–1998)",
+    "coordinates": "41.018°N 96.320°W",
+    "type": "Aviation museum",
+    "category": "Air Force",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Sr-71.jpg",
+    "photoAttribute": "By User Kandykornhead on en.wikipedia - User created, Public Domain, https://commons.wikimedia.org/w/index.php?curid=1181231",
+    "website": "http://www.sacmuseum.com/"
+  },
+  {
+    "name": "National Museum of Health and Medicine",
+    "location": "2500 Linden Lane, Silver Spring, Maryland",
+    "coordinates": "39°0′32″N 77°3′14″W",
+    "type": "Medicine, Military medicine",
+    "category": "Army",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/NMHM_20111006c.jpg/1280px-NMHM_20111006c.jpg",
+    "photoAttribute": "By Cohee - Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=16888679",
+    "website": "http://www.medicalmuseum.mil/"
+  },
+  {
+    "name": "National Museum of the United States Army",
+    "location": "1775 Liberty Drive, Fort Belvoir, Virginia, United States",
+    "coordinates": "38°43′21″N 77°10′12″W",
+    "type": "Military history",
+    "category": "Army",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/NMUSA01.jpg/1280px-NMUSA01.jpg",
+    "photoAttribute": "By Susan Fazakerley Smullen - https://www.dvidshub.net/image/6174993/museum-exterior-front-view, Public Domain, https://commons.wikimedia.org/w/index.php?curid=100666322",
+    "website": "https://thenmusa.org/"
+  },
+  {
+    "name": "Rock Island Arsenal Museum",
+    "location": "Rock Island Arsenal | Rock Island County, Illinois",
+    "coordinates": "41.516944°N 90.541944°W",
+    "type": "United States Army",
+    "category": "Army",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Rock_Island_Arsenal_M101A1_howitzer_%2849367586667%29.jpg",
+    "photoAttribute": "By Philipp Beckers, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "website": "https://www.arsenalhistoricalsociety.org/"
+  },
+  {
+    "name": "West Point Museum",
+    "location": "2110 New South Post Rd, West Point, NY 10996",
+    "coordinates": "41° 22′21.216″N 73° 57′42.7536″W",
+    "type": "United States Army",
+    "category": "Army",
+    "photoUrl": "https://commons.wikimedia.org/wiki/File:West_Point_Museum_02.jpg",
+    "photoAttribute": "By Ad Meskens, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "website": "https://history.army.mil/museums/IMCOM/westPoint/index.html#about"
+  },
+  {
+    "name": "National Museum of the Marine Corps",
+    "location": "18900 Jefferson Davis Highway (see US Route 1 in Virginia) Triangle, Virginia",
+    "coordinates": "38°32′39″N 77°20′36″W",
+    "type": "Military history",
+    "category": "Navy",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/NationalMuseumMarineCorps.jpg/1280px-NationalMuseumMarineCorps.jpg",
+    "photoAttribute": "By Duane Lempke - Duane Lempke Photography, CC0, https://commons.wikimedia.org/w/index.php?curid=116909378",
+    "website": "http://www.usmcmuseum.com/"
+  },
+  {
+    "name": "National Museum of the United States Navy",
+    "location": "736 Sicard St SE, Washington, DC 20374",
+    "coordinates": "38.8733°N 76.9953°W",
+    "type": "United States Navy",
+    "category": "Navy",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/US_Navy_030421-N-0000X-001_The_Navy_Museum_is_celebrating_its_40th_anniversary_and_the_legacy_of_past_naval_museums_with_a_new_exhibit.jpg/1280px-US_Navy_030421-N-0000X-001_The_Navy_Museum_is_celebrating_its_40th_anniversary_and_the_legacy_of_past_naval_museums_with_a_new_exhibit.jpg",
+    "photoAttribute": "By U.S. Navy photo - This image was released by the United States Navy with the ID 030421-N-0000X-001 (next).This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing.العربية ∙ বাংলা ∙ Deutsch ∙ Deutsch (Sie-Form) ∙ English ∙ español ∙ euskara ∙ فارسی ∙ français ∙ italiano ∙ 日本語 ∙ 한국어 ∙ македонски ∙ മലയാളം ∙ Plattdüütsch ∙ Nederlands ∙ polski ∙ پښتو ∙ português ∙ svenska ∙ Türkçe ∙ українська ∙ 简体中文 ∙ 繁體中文 ∙ +/−, Public Domain, https://commons.wikimedia.org/w/index.php?curid=8175594",
+    "website": "http://www.history.navy.mil/museums/NationalMuseum/org8-1.htm"
+  },
+  {
+    "name": "National Naval Aviation Museum",
+    "location": "Pensacola, Florida",
+    "coordinates": "30.349580°N 87.303582°W",
+    "type": "United States Navy",
+    "category": "Navy",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Grumman_YF-14A_Tomcat_157984_Museum_%28NMNA%29.JPG/1280px-Grumman_YF-14A_Tomcat_157984_Museum_%28NMNA%29.JPG",
+    "photoAttribute": "By Kristian Jones - Own work (Original text: self-made), Public Domain, https://commons.wikimedia.org/w/index.php?curid=5942499",
+    "website": "http://www.navalaviationmuseum.org/"
+  },
+  {
+    "name": "National Museum of the American Sailor",
+    "location": "Building 42 2531 Sheridan Road Great Lakes, Illinois 60088",
+    "coordinates": "42.312117°N 87.843470°W",
+    "type": "Naval History",
+    "category": "Navy",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Great_Lakes_Naval_Museum_2013_or_earlier.JPG/1280px-Great_Lakes_Naval_Museum_2013_or_earlier.JPG",
+    "photoAttribute": "By (U.S. Navy photo/Released) - 131108-N-ZZ999-001 from http://www.navy.mil/view_image.asp?id=165834, Public Domain, https://commons.wikimedia.org/w/index.php?curid=38324753",
+    "website": "http://www.history.navy.mil/nmas"
+  },
+  {
+    "name": "National Navy UDT-SEAL Museum",
+    "location": "3300 North A1A North Hutchinson Island Fort Pierce, Florida",
+    "coordinates": "27.495249°N 80.300307°W",
+    "type": "Military history",
+    "category": "Navy",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Ft_Pierce_FL_Navy_UDT-SEAL_Museum02.jpg/1280px-Ft_Pierce_FL_Navy_UDT-SEAL_Museum02.jpg",
+    "photoAttribute": "By Ebyabe - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=12232913",
+    "website": "http://www.navysealmuseum.com/"
+  },
+  {
+    "name": "Naval War College Museum",
+    "location": "Building 10 Luce Avenue Naval Station Newport",
+    "coordinates": "41°30′24″N 71°19′44″W",
+    "type": "Military history",
+    "category": "Navy",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/eb/United_States_Naval_War_College_museum.jpg",
+    "photoAttribute": "Public Domain, https://commons.wikimedia.org/w/index.php?curid=36687504",
+    "website": "https://usnwc.edu/NWC-Museum"
+  },
+  {
+    "name": "Submarine Force Library and Museum",
+    "location": "Groton, Connecticut",
+    "coordinates": "41°38′75″N, 72°08′69″W",
+    "type": "Library and Military museum",
+    "category": "Navy",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/ba/UGM-84_Harpoon_at_Submarine_Force_Museum_entrance.jpg",
+    "photoAttribute": "By Flickr user : https://www.flickr.com/photos/divemasterking2000 - Flickr : https://www.flickr.com/photos/divemasterking2000/3346226696, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=7211688",
+    "website": "http://www.ussnautilus.org/"
+  },
+  {
+    "name": "National Cryptologic Museum",
+    "location": "8290 Colony Seven Road Annapolis Junction, Maryland 20701 United States of America",
+    "coordinates": "39.1148°N 76.7748°W",
+    "type": "History museum",
+    "category": "National Security Agency",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/National_Cryptologic_Museum.jpg/1280px-National_Cryptologic_Museum.jpg",
+    "photoAttribute": "By Coolcaesar at en.wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=15903857",
+    "website": "https://www.nsa.gov/about/cryptologic-heritage/museum/"
+  },
+  {
+    "name": "CIA Museum",
+    "location": "Langley, Virginia",
+    "coordinates": "38.9518°N 77.1465°W",
+    "type": "History museum",
+    "category": "Central Intelligence Agency",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/CIA_Museum_-_Flickr_-_The_Central_Intelligence_Agency.jpg/1280px-CIA_Museum_-_Flickr_-_The_Central_Intelligence_Agency.jpg",
+    "photoAttribute": "By The Central Intelligence Agency - CIA Museum, Public Domain, https://commons.wikimedia.org/w/index.php?curid=29197506",
+    "website": "https://www.cia.gov/legacy/museum/"
+  },
+  {
+    "name": "National Gallery of Art",
+    "location": "National Mall between 3rd and 9th Streets at Constitution Avenue NW, Washington, DC, 20565, National Mall, Washington, D.C.",
+    "coordinates": "38°53′29″N 77°01′12″W",
+    "type": "Art museum",
+    "category": "Art",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Washington_October_2016-12.jpg/1280px-Washington_October_2016-12.jpg",
+    "photoAttribute": "By Alvesgaspar - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=53782413",
+    "website": "https://www.nga.gov/"
+  },
+  {
+    "name": "Smithsonian American Art Museum",
+    "location": "8th & F Streets NW, Washington, D.C.[2]",
+    "coordinates": "38°53′52.1″N 77°01′22.8″W",
+    "type": "Art museum",
+    "category": "Smithsonian Institution",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Modern_and_Contemporary_Art_at_the_Smithsonian_American_Art_Museum.jpg/1280px-Modern_and_Contemporary_Art_at_the_Smithsonian_American_Art_Museum.jpg",
+    "photoAttribute": "By Smithsonian American Art Museum - Smithsonian American Art Museum, http://www.americanart.si.edu, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=23249632",
+    "website": "http://americanart.si.edu/"
+  },
+  {
+    "name": "Anacostia Community Museum",
+    "location": "Washington, D.C.",
+    "coordinates": "38.856854°N 76.976888°W",
+    "type": "Community Museum",
+    "category": "Smithsonian Institution",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Anacosta_Community_Museum.jpg/1920px-Anacosta_Community_Museum.jpg",
+    "photoAttribute": "By Smithsonian Institution - https://anacostia.si.edu/Content/img/Newsroom/191008_Anacostia_Community_Museum_LG.jpg, Public Domain, https://commons.wikimedia.org/w/index.php?curid=109143133",
+    "website": "http://anacostia.si.edu/"
+  },
+  {
+    "name": "Arts and Industries Building",
+    "location": "900 Jefferson Drive SW, Washington, D.C.",
+    "coordinates": "38°53′17.34″N 77°1′28.18″W",
+    "type": "Art museum",
+    "category": "Smithsonian Institution",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Smithsonian_Arts_and_Industries_Building.jpg/1280px-Smithsonian_Arts_and_Industries_Building.jpg",
+    "photoAttribute": "By Plum Pine - https://www.flickr.com/photos/144353003@N07/37144592370/, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=113665590",
+    "website": "https://aib.si.edu/"
+  },
+  {
+    "name": "Cooper Hewitt, Smithsonian Design Museum",
+    "location": "Manhattan, New York, United States",
+    "coordinates": "40.7844°N 73.9582°W",
+    "type": "Art museum",
+    "category": "Smithsonian Institution",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Cooper_Hewitt_%2848059131921%29.jpg/1280px-Cooper_Hewitt_%2848059131921%29.jpg",
+    "photoAttribute": "By Ajay Suresh from New York, NY, USA - Cooper Hewitt, CC BY 2.0, https://commons.wikimedia.org/w/index.php?curid=79681136",
+    "website": "http://www.cooperhewitt.org/"
+  },
+  {
+    "name": "Freer Gallery of Art",
+    "location": "1050 Independence Avenue Washington, D.C.",
+    "coordinates": "38.888135°N 77.02739°W",
+    "type": "Art museum",
+    "category": "Smithsonian Institution",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Freer_Gallery_1.jpg/1280px-Freer_Gallery_1.jpg",
+    "photoAttribute": "By Quadell - Self-published work by Quadell, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=217562",
+    "website": "http://www.asia.si.edu/"
+  },
+  {
+    "name": "Hirshhorn Museum and Sculpture Garden",
+    "location": "Washington, D.C., on the National Mall",
+    "coordinates": "38.888256°N 77.022829°W",
+    "type": "Art museum",
+    "category": "Smithsonian Institution",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Hirshhorn_Museum_DC_2007.jpg/1920px-Hirshhorn_Museum_DC_2007.jpg",
+    "photoAttribute": "By Gryffindor - This panoramic image was created with Autostitch (stitched images may differ from reality)., Public Domain, https://commons.wikimedia.org/w/index.php?curid=2880712",
+    "website": "http://hirshhorn.si.edu/"
+  },
+  {
+    "name": "National Air and Space Museum",
+    "location": "Washington, D.C.",
+    "coordinates": "38.888°N 77.020°W",
+    "type": "Aviation museum",
+    "category": "Smithsonian Institution",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Smithsonian_Air_and_Space_Museum.jpg/800px-Smithsonian_Air_and_Space_Museum.jpg",
+    "photoAttribute": "By David Bjorgen - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=520074",
+    "website": "http://www.nasm.si.edu/"
+  },
+  {
+    "name": "Steven F. Udvar-Hazy Center",
+    "location": "Chantilly, Virginia, United States",
+    "coordinates": "38°54′41.2″N 77°26′38.8″W",
+    "type": "Aviation museum",
+    "category": "Smithsonian Institution - National Air and Space Museum",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/56/StevenFUdvarHazy.png",
+    "photoAttribute": "CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=422792",
+    "website": "http://airandspace.si.edu/visit/udvar-hazy-center/"
+  },
+  {
+    "name": "National Museum of African American History and Culture",
+    "location": "1400 Constitution Ave, NW Washington, DC 20560",
+    "coordinates": "38°53′28″N 77°01′58″W",
+    "type": "History museum",
+    "category": "Smithsonian Institution",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/National_Museum_of_African_American_History_and_Culture_in_February_2020.jpg/1280px-National_Museum_of_African_American_History_and_Culture_in_February_2020.jpg",
+    "photoAttribute": "By Frank Schulenburg - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=87514400",
+    "website": "http://nmaahc.si.edu/"
+  },
+  {
+    "name": "National Museum of African Art",
+    "location": "Washington, D.C., United States",
+    "coordinates": "38.8880°N 77.0255°W",
+    "type": "Art museum",
+    "category": "Smithsonian Institution",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/National_Museum_of_African_Art%2C_2019.jpg/1280px-National_Museum_of_African_Art%2C_2019.jpg",
+    "photoAttribute": "By Difference engine - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=79072851",
+    "website": "https://africa.si.edu/"
+  },
+  {
+    "name": "National Museum of the American Indian",
+    "location": "Fourth Street and Independence Avenue, Southwest, Washington D.C. (main location)",
+    "coordinates": "38.8883°N 77.0166°W",
+    "type": "History museum",
+    "category": "Smithsonian Institution",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/National_Museum_of_the_American_Indian%2C_Washington%2C_D.C_LCCN2011630892.tif/lossy-page1-1024px-National_Museum_of_the_American_Indian%2C_Washington%2C_D.C_LCCN2011630892.tif.jpg",
+    "photoAttribute": "By Carol M. Highsmith - Library of CongressCatalog: http://lccn.loc.gov/2011630892Image download: https://cdn.loc.gov/master/pnp/highsm/12600/12698a.tifOriginal url: http://hdl.loc.gov/loc.pnp/highsm.12698, Public Domain, https://commons.wikimedia.org/w/index.php?curid=52220307",
+    "website": "http://www.americanindian.si.edu/"
+  },
+  {
+    "name": "National Museum of American History",
+    "location": "1300 US-1 Washington, D.C., United States",
+    "coordinates": "38°53′28″N 77°01′48″W",
+    "type": "History museum",
+    "category": "Smithsonian Institution",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Aerial_view_of_National_Museum_of_American_History.jpg/1920px-Aerial_view_of_National_Museum_of_American_History.jpg",
+    "photoAttribute": "By Carol M. Highsmith - This image is available from the United States Library of Congress&#039;s Prints and Photographs divisionunder the digital ID highsm.04970.This tag does not indicate the copyright status of the attached work. A normal copyright tag is still required. See Commons:Licensing for more information., Public Domain, https://commons.wikimedia.org/w/index.php?curid=10346795",
+    "website": "http://americanhistory.si.edu/"
+  },
+  {
+    "name": "National Museum of Natural History",
+    "location": "National Mall in Washington, D.C., United States",
+    "coordinates": "38.8913°N 77.0259°W",
+    "type": "Natural history",
+    "category": "Smithsonian Institution",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Smithsonian-Museum_of_Natural_History.jpg/800px-Smithsonian-Museum_of_Natural_History.jpg",
+    "photoAttribute": "By Melizabethi123 - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=32505864",
+    "website": "https://naturalhistory.si.edu/"
+  },
+  {
+    "name": "National Portrait Gallery",
+    "location": "Eighth and F Streets, NW, Washington, D.C.",
+    "coordinates": "38°53′52.1″N 77°01′22.8″W",
+    "type": "Art museum",
+    "category": "Smithsonian Institution",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/National_Portrait_Gallery.jpg/1280px-National_Portrait_Gallery.jpg",
+    "photoAttribute": "By Difference engine - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=52313063",
+    "website": "http://www.npg.si.edu/"
+  },
+  {
+    "name": "National Postal Museum",
+    "location": "Postal Square Building Washington, D.C.",
+    "coordinates": "38.898°N 77.0083°W",
+    "type": "History museum",
+    "category": "Smithsonian Institution - United States Postal Service",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/Postal_Square_Building.jpg/1920px-Postal_Square_Building.jpg",
+    "photoAttribute": "By AgnosticPreachersKid at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10098328",
+    "website": "https://postalmuseum.si.edu/"
+  },
+  {
+    "name": "National Zoological Park",
+    "location": "3001 Connecticut Ave. NW, Rock Creek Park, Washington, D.C., U.S.",
+    "coordinates": "38°55′52″N 77°02′59″W",
+    "type": "Zoo",
+    "category": "Smithsonian Institution",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Washington_Zoo_entrance.jpg/1280px-Washington_Zoo_entrance.jpg",
+    "photoAttribute": "By Quadell - Self-published work by Quadell, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=247241",
+    "website": "http://nationalzoo.si.edu/"
+  },
+  {
+    "name": "Herbert Hoover Presidential Library and Museum",
+    "location": "West Branch, Iowa, United States",
+    "coordinates": "41.669°N 91.348°W",
+    "type": "Library and History museum",
+    "category": "Presidential Library System",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Herbert_Hoover_Presidential_Library_003.jpg",
+    "photoAttribute": "By Shadow2700 - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=2902922",
+    "website": "https://hoover.archives.gov/"
+  },
+  {
+    "name": "Franklin D. Roosevelt Presidential Library and Museum",
+    "location": "Hyde Park, New York, United States",
+    "coordinates": "41.768680°N 73.934115°W",
+    "type": "Library and History museum",
+    "category": "Presidential Library System",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/FDR_National_Historic_Site.JPG/1280px-FDR_National_Historic_Site.JPG",
+    "photoAttribute": "By Alexisrael - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=31353991",
+    "website": "https://fdrlibrary.org/"
+  },
+  {
+    "name": "Harry S. Truman Presidential Library and Museum",
+    "location": "500 West U.S. Highway 24 Independence, Missouri, U.S.",
+    "coordinates": "39°06′12″N 94°25′15″W",
+    "type": "Library and History museum",
+    "category": "Presidential Library System",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Harry_S._Truman_Presidential_Library_and_Museum.jpg",
+    "photoAttribute": "By Sallyrob at English Wikipedia - Transferred from en.wikipedia to Commons by TCY., Public Domain, https://commons.wikimedia.org/w/index.php?curid=3762734",
+    "website": "https://www.trumanlibrary.gov/"
+  },
+  {
+    "name": "Dwight D. Eisenhower Presidential Library, Museum and Boyhood Home",
+    "location": "Abilene, Kansas, U.S.",
+    "coordinates": "38°54′44″N 97°12′39″W",
+    "type": "Library and History museum",
+    "category": "Presidential Library System",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Eisenhower_library.jpg",
+    "photoAttribute": "Public Domain, https://commons.wikimedia.org/w/index.php?curid=3762789",
+    "website": "https://www.eisenhower.archives.gov/"
+  },
+  {
+    "name": "John F. Kennedy Presidential Library and Museum",
+    "location": "Boston, Suffolk County, Massachusetts, United States",
+    "coordinates": "42°18′57.21″N 71°2′2.71″W",
+    "type": "Library and History museum",
+    "category": "Presidential Library System",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/JFK_library_Stitch_Crop.jpg/1920px-JFK_library_Stitch_Crop.jpg",
+    "photoAttribute": "By Fcb981, this edit (cropped to pano, corrected distortion) by mixpix 18:33, 28 December 2007 (UTC) - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=3291873",
+    "website": "http://www.jfklibrary.org/"
+  },
+  {
+    "name": "Lyndon Baines Johnson Library and Museum",
+    "location": "2313 Red River St, Austin, Texas, United States",
+    "coordinates": "30.2857°N 97.7292°W",
+    "type": "Library and History museum",
+    "category": "Presidential Library System",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/LBJ_Library_2017.jpg/1280px-LBJ_Library_2017.jpg",
+    "photoAttribute": "By Jay Godwin - https://www.flickr.com/photos/lbjlibrarynow/31546534694/in/album-72157635405160845/, Public Domain, https://commons.wikimedia.org/w/index.php?curid=62638495",
+    "website": "http://www.lbjlibrary.org/"
+  },
+  {
+    "name": "Richard Nixon Presidential Library and Museum",
+    "location": "Yorba Linda, California, United States",
+    "coordinates": "33°53′21″N 117°49′10″W",
+    "type": "Library and History museum",
+    "category": "Presidential Library System",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Nixon_Library_and_Gardens.jpg/1280px-Nixon_Library_and_Gardens.jpg",
+    "photoAttribute": "By The original uploader was Sorcha at English Wikipedia. - Transferred from en.wikipedia to Commons by TCY., CC BY-SA 2.5, https://commons.wikimedia.org/w/index.php?curid=3762817",
+    "website": "https://nixon.archives.gov/"
+  },
+  {
+    "name": "Gerald R. Ford Presidential Museum",
+    "location": "Grand Rapids, Kent County, Michigan, United States",
+    "coordinates": "42°58′06″N 85°40′39″W",
+    "type": "Library and History museum",
+    "category": "Presidential Library System",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Ford_ford_museum.jpg",
+    "photoAttribute": "By Staff of the Gerald R. Ford Presidential Museum - Taken by the staff of the Gerald R. Ford Presidential Museum, Public Domain, https://commons.wikimedia.org/w/index.php?curid=7485185",
+    "website": "https://fordlibrarymuseum.gov/"
+  },
+  {
+    "name": "Jimmy Carter Library and Museum",
+    "location": "Atlanta, Georgia, US",
+    "coordinates": "33°45′59″N 84°21′23″W",
+    "type": "Library and History museum",
+    "category": "Presidential Library System",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Carter_lib1.JPG/1280px-Carter_lib1.JPG",
+    "photoAttribute": "Public Domain, https://commons.wikimedia.org/w/index.php?curid=126894",
+    "website": "https://www.jimmycarterlibrary.gov/"
+  },
+  {
+    "name": "Ronald Reagan Presidential Library",
+    "location": "Simi Valley, California, United States",
+    "coordinates": "34.2595°N 118.8194°W",
+    "type": "Library and History museum",
+    "category": "Presidential Library System",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/View_of_the_Reagan_Library_from_the_south.jpg/1920px-View_of_the_Reagan_Library_from_the_south.jpg",
+    "photoAttribute": "By Unknown author - Ronald Reagan Presidential Library, Public Domain, https://commons.wikimedia.org/w/index.php?curid=1893423",
+    "website": "https://www.reaganlibrary.gov/"
+  },
+  {
+    "name": "George H.W. Bush Presidential Library and Museum",
+    "location": "College Station, Texas, United States",
+    "coordinates": "30°35′48″N 96°21′12″W",
+    "type": "Library and History museum",
+    "category": "Presidential Library System",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/George_Bush_Presidential_Library.jpg/1920px-George_Bush_Presidential_Library.jpg",
+    "photoAttribute": "By Jujutacular - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=14937544",
+    "website": "https://www.bush41.org/"
+  },
+  {
+    "name": "Clinton Presidential Center",
+    "location": "1200 President Clinton Avenue, Little Rock, Pulaski County, Arkansas, United States",
+    "coordinates": "34°44′47″N 92°15′30″W",
+    "type": "Library and History museum",
+    "category": "Presidential Library System",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Clinton_Presidential_Center%2C_Airport%2C_and_School_of_Public_Service%2C_aerial.jpg/1280px-Clinton_Presidential_Center%2C_Airport%2C_and_School_of_Public_Service%2C_aerial.jpg",
+    "photoAttribute": "By Toniklemm - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=92419324",
+    "website": "https://www.clintonfoundation.org/clinton-presidential-center"
+  },
+  {
+    "name": "George W. Bush Presidential Center",
+    "location": "2943 SMU Boulevard, Dallas, TX 75205, United States - Southern Methodist University",
+    "coordinates": "32°50′27″N 96°46′41″W",
+    "type": "Library and History museum",
+    "category": "Presidential Library System",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/George_W._Bush_Presidential_Center_121_-_jpfagerback_-_2013-04-28.JPG/1920px-George_W._Bush_Presidential_Center_121_-_jpfagerback_-_2013-04-28.JPG",
+    "photoAttribute": "By J. P. Fagerback - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=25805489",
+    "website": "http://www.bushcenter.org/"
+  },
+  {
+    "name": "Mariners' Museum and Park",
+    "location": "100 Museum Drive Newport News, Virginia United States",
+    "coordinates": "37.0550°N 76.4878°W",
+    "type": "Maritime",
+    "category": "Transportation",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/12/Mariners_Museum_2007_051a.jpg",
+    "photoAttribute": "By Mytwocents at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=6813855",
+    "website": "http://www.marinersmuseum.org/"
+  },
+  {
+    "name": "National Railroad Museum",
+    "location": "Ashwaubenon, Wisconsin",
+    "coordinates": "44°28′59.9″N 88°02′52.8″W",
+    "type": "Railway museum",
+    "category": "Transportation",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Victor_McCormick_Train_Pavilion_and_Frederick_J_Lenfestey_Center_at_National_Railroad_Museum.jpg/1280px-Victor_McCormick_Train_Pavilion_and_Frederick_J_Lenfestey_Center_at_National_Railroad_Museum.jpg",
+    "photoAttribute": "By Dual Freq - Own work, CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=11520624",
+    "website": "https://nationalrrmuseum.org/"
+  },
+  {
+    "name": "National Veterans Memorial and Museum",
+    "location": "300 W. Broad Street Columbus, Ohio, United States",
+    "coordinates": "39°57′43″N 83°0′29″W",
+    "type": "Veteran",
+    "category": "War Museums/Memorials",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/NVMM_2020.jpg/1280px-NVMM_2020.jpg",
+    "photoAttribute": "By Ɱ - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=89425053",
+    "website": "https://www.nationalvmm.org/"
+  },
+  {
+    "name": "National Civil War Museum",
+    "location": "One Lincoln Circle at Reservoir Park in Harrisburg, Pennsylvania",
+    "coordinates": "40.2720° -76.8553°",
+    "type": "Military history",
+    "category": "War Museums/Memorials",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/MemorialgettysburgAAL1998.JPG",
+    "photoAttribute": "CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=200496",
+    "website": "http://www.nationalcivilwarmuseum.org/"
+  },
+  {
+    "name": "National Museum of the Pacific War",
+    "location": "340 East Austin Street Fredericksburg, Texas United States",
+    "coordinates": "30.2726°N 98.8675°W",
+    "type": "Maritime",
+    "category": "War Museums/Memorials",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/25/Nimitz_Museum%2C_Fredericksburg%2C_Texas.JPG",
+    "photoAttribute": "By Ernest Mettendorf - Contact us/Photo submission, Public Domain, https://commons.wikimedia.org/w/index.php?curid=4190487",
+    "website": "http://www.pacificwarmuseum.org/"
+  },
+  {
+    "name": "National World War I Museum and Memorial",
+    "location": "Kansas City, Missouri, U.S.",
+    "coordinates": "39°04′49″N 94°35′10″W",
+    "type": "Military history",
+    "category": "War Museums/Memorials",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/National_World_War_I_Museum_and_Memorial_aerial.jpg/1280px-National_World_War_I_Museum_and_Memorial_aerial.jpg",
+    "photoAttribute": "By National WWI Museum - National WWI Museum, CC0, https://commons.wikimedia.org/w/index.php?curid=40387511",
+    "website": "http://theworldwar.org/"
+  },
+  {
+    "name": "The National WWII Museum",
+    "location": "New Orleans, Louisiana, U.S.",
+    "coordinates": "29°56′35″N 90°04′13″W",
+    "type": "Military history",
+    "category": "War Museums/Memorials",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/The_National_WWII_Museum_New_Orleans_Dec_2015.jpg/1280px-The_National_WWII_Museum_New_Orleans_Dec_2015.jpg",
+    "photoAttribute": "By ironypoisoning - https://www.flickr.com/photos/ironypoisoning/24306141735/, CC BY-SA 2.0, https://commons.wikimedia.org/w/index.php?curid=76493231",
+    "website": "http://www.nationalww2museum.org/"
+  },
+  {
+    "name": "National Museum of Wildlife Art",
+    "location": "2820 Rungius Road Jackson, Wyoming 83001 United States",
+    "coordinates": "43.5195° N, 110.7488° W",
+    "type": "Wildlife Art",
+    "category": "Other",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ad/National_Museum_of_Wildlife_Art_2012.jpg",
+    "photoAttribute": "By Anwestov at English Wikipedia, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=74256339",
+    "website": "http://www.wildlifeart.org/"
+  },
+  {
+    "name": "National Civil Rights Museum",
+    "location": "Memphis, Tennessee",
+    "coordinates": "35.1345°N 90.0576°W",
+    "type": "History museum",
+    "category": "Other",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/National_Civil_Rights_Museum_sign_-_Memphis.jpg/1920px-National_Civil_Rights_Museum_sign_-_Memphis.jpg",
+    "photoAttribute": "By Bigmacthealmanac - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=102331749",
+    "website": "https://www.civilrightsmuseum.org/"
+  },
+  {
+    "name": "National Constitution Center",
+    "location": "Independence Mall, Philadelphia, Pennsylvania",
+    "coordinates": "39.9536°N 75.1491°W",
+    "type": "History museum",
+    "category": "Other",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/National_Constitution_Center_Front.jpg/1280px-National_Constitution_Center_Front.jpg",
+    "photoAttribute": "By Housefinch1787 - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=80310039",
+    "website": "https://constitutioncenter.org/"
+  },
+  {
+    "name": "National Museum of Dentistry",
+    "location": "Baltimore, Maryland",
+    "coordinates": "39.2879° N, 76.6234° W",
+    "type": "History museum",
+    "category": "Other",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/NationalDentistryMuseum.JPG/800px-NationalDentistryMuseum.JPG",
+    "photoAttribute": "By AndrewHorne - Own work, Public Domain, https://commons.wikimedia.org/w/index.php?curid=10828160",
+    "website": "https://www.dental.umaryland.edu/museum/"
+  },
+  {
+    "name": "National Mining Hall of Fame",
+    "location": "120 West 9th Street, Leadville, Colorado",
+    "coordinates": "39.2512° N, 106.2940° W",
+    "type": "History museum",
+    "category": "Other",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/National_Mining_Hall_of_Fame_and_Museum_%28front%29.jpg/1280px-National_Mining_Hall_of_Fame_and_Museum_%28front%29.jpg",
+    "photoAttribute": "By Craig Talbert - National Mining Hall of Fame and Museum (front), CC BY 3.0, https://commons.wikimedia.org/w/index.php?curid=7758024",
+    "website": "http://www.mininghalloffame.org/"
+  },
+  {
+    "name": "National Building Museum",
+    "location": "401 F St. NW, Washington, D.C.",
+    "coordinates": "38°53′51″N 77°1′5″W",
+    "type": "History museum",
+    "category": "Other",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/National_Law_Enforcement_Officers_Memorial_in_Washington%2C_D.C..JPG/1920px-National_Law_Enforcement_Officers_Memorial_in_Washington%2C_D.C..JPG",
+    "photoAttribute": "By AgnosticPreachersKid - Own work, CC BY-SA 3.0, https://commons.wikimedia.org/w/index.php?curid=10540392",
+    "website": "https://www.nbm.org/"
+  },
+  {
+    "name": "National Quilt Museum",
+    "location": "Paducah, Kentucky",
+    "coordinates": "37.0893° N, 88.5971° W",
+    "type": "History museum",
+    "category": "Other",
+    "photoUrl": "https://www.flickr.com/photos/justin_glass/3799592647",
+    "photoAttribute": "By Justin Glass",
+    "website": "https://quiltmuseum.org/"
+  },
+  {
+    "name": "National Nordic Museum",
+    "location": "2655 NW Market Street Seattle, Washington, U.S.",
+    "coordinates": "47°40′06″N 122°23′33″W",
+    "type": "Heritage Center",
+    "category": "Other",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Nordic_Museum_Seattle.jpg/1280px-Nordic_Museum_Seattle.jpg",
+    "photoAttribute": "By ECTran71 - Own work, CC BY-SA 4.0, https://commons.wikimedia.org/w/index.php?curid=74957552",
+    "website": "http://www.nordicmuseum.org/"
+  },
+  {
+    "name": "National Law Enforcement Museum",
+    "location": "444 E St NW, Washington, D.C.",
+    "coordinates": "38.8967°N 77.0176°W",
+    "type": "History museum",
+    "category": "Other",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c5/National_Law_Enforcement_Officers_Memorial_in_Washington%2C_D.C..JPG",
+    "photoAttribute": "By AgnosticPreachersKid, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "website": "https://nleomf.org/"
+  },
+  {
+    "name": "National Airmail Museum",
+    "location": "Fort Wayne, Indiana",
+    "coordinates": "40.977481 N -85.196112 W",
+    "type": "Aviation museum",
+    "category": "Other",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Fort_Wayne_International_Airport_-_USGS_10_April_2002.jpg/1024px-Fort_Wayne_International_Airport_-_USGS_10_April_2002.jpg",
+    "photoAttribute": "By United States Geological Survey (USGS) - USGS The National Map, via MSR Maps (formerly TerraServer-USA)Interactive map: http://msrmaps.com/map.aspx?t=4&amp;s=12&amp;lat=40.9794&amp;lon=-85.1991&amp;w=1000&amp;h=1000Image: http://msrmaps.com/GetImageArea.ashx?t=4&amp;s=11&amp;lat=40.9794&amp;lon=-85.1991&amp;w=2000&amp;h=2000, Public Domain, https://commons.wikimedia.org/w/index.php?curid=23616803",
+    "website": "https://www.nationalairmailmuseum.org/"
+  }
+]

@@ -19,6 +19,7 @@ connectDB();
 
 const dogRoutes = require('./routes/dogs');
 const catRoutes = require('./routes/cats');
+const museumRoutes = require('./routes/museums');
 
 const PORT = process.env.PORT || 5000;
 
@@ -50,6 +51,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 // Mount Routers
 app.use('/api/v1/dogs', dogRoutes);
 app.use('/api/v1/cats', catRoutes);
+app.use('/api/v1/museums', museumRoutes);
 
 // Error Handling
 app.use(errorHandler)
