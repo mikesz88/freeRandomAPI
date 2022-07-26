@@ -8416,6 +8416,10 @@
             <ul>
               <li><a class=endpoint_menu href=#jump-CatAPI-GetCats>Get Cats</a>
             </ul>
+          <li><strong><a href=#MuseumAPI>Museum API</a></strong>
+            <ul>
+              <li><a class=endpoint_menu href=#jump-MuseumAPI-GetMuseums>Get Museums</a>
+            </ul>
         </ul>
       </div>
       <div class=col-md-9>
@@ -8480,7 +8484,7 @@
                               <li><a
                                   href="https://freerandomapi.herokuapp.com/api/v1/dogs/api/v1/dogs?sort=name">https://freerandomapi.herokuapp.com/api/v1/dogs/api/v1/dogs?sort=name</a>
                             </ul>
-                          <li>You can place multiple queries for in what call like this:<ul>
+                          <li>You can place multiple queries like this:<ul>
                               <li><a
                                   href="https://freerandomapi.herokuapp.com/api/v1/dogs?limit=30&amp;page=5&amp;select=name,breed&amp;sort=name">https://freerandomapi.herokuapp.com/api/v1/dogs?limit=30&amp;page=5&amp;select=name,breed&amp;sort=name</a>
                             </ul>
@@ -8601,7 +8605,7 @@
                               <li><a
                                   href="https://freerandomapi.herokuapp.com/api/v1/cats?sort=name">https://freerandomapi.herokuapp.com/api/v1/cats?sort=name</a>
                             </ul>
-                          <li>You can place multiple queries for in what call like this:<ul>
+                          <li>You can place multiple queries like this:<ul>
                               <li><a
                                   href="https://freerandomapi.herokuapp.com/api/v1/dogs?limit=30&amp;page=5&amp;select=name,breed&amp;sort=name">https://freerandomapi.herokuapp.com/api/v1/cats?limit=30&amp;page=5&amp;select=name,breed&amp;sort=name</a>
                             </ul>
@@ -8661,6 +8665,147 @@
             </div>
           </div>
         </div>
+        <div class="panel panel-default">
+          <div class=panel-heading>
+            <h3 class=panel-title id=MuseumAPI>Museum API
+              <span class=badge>1</span>
+            </h3>
+          </div>
+          <div class=panel-body>
+            <p>
+            <p>Here you will have a list of 66 national museums across the United States.
+            <p>It will supply you with museum profile that has:
+            <ul>
+              <li>Name
+              <li>Location
+              <li>Coordinates
+              <li>Type
+              <li>Category
+              <li>Photo
+              <li>Photo Attribute
+              <li>Website
+            </ul>
+            <p>Possible ideas for implementation:
+            <ul>
+              <li>Find your favorite national museum
+              <li>Create a google maps with locations around the United State Pins.
+            </ul>
+            <div class=request-item>
+              <div class=panel-group id=accordion-MuseumAPI>
+                <div class="panel panel-info" id=jump-MuseumAPI-GetMuseums>
+                  <div class=panel-heading><small class="pull-right text-muted"></small><a class=text-info
+                      data-toggle=collapse data-parent=#accordion-MuseumAPI href=#collapse-MuseumAPI-GetMuseums>
+                      <h4 class=panel-title><span class="glyphicon glyphicon-plus"></span><strong>Get Museums</strong>
+                        &nbsp;|&nbsp;
+                        <strong class="request-method border-info">GET</strong>
+                        &nbsp;
+                        https://freerandomapi.herokuapp.com/api/v1/museums
+                      </h4>
+                    </a></div>
+                  <div id=collapse-MuseumAPI-GetMuseums class="panel-collapse collapse">
+                    <div class=panel-body>
+                      <h5 class="label label-default">Description</h5><br><small>
+                        <p><strong>Helpful tips!</strong>
+                        <ul>
+                          <li>If you call it as it stands it will provide you the first 25 museums.
+                          <li>If you want to change the amount of 25, please put a query with the word
+                            &ldquo;limit&rdquo; like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/museums?limit=50">https://freerandomapi.herokuapp.com/api/v1/museums?limit=50</a>
+                            </ul>
+                          <li>If you want to change what page you are on, please put a query with the word
+                            &ldquo;page&rdquo; like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/museums?page=12">https://freerandomapi.herokuapp.com/api/v1/museums?page=12</a>
+                            </ul>
+                          <li>If you do not want all of the data provided for each profile, please put a query with the
+                            word select and add the keys you want. Like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/museums?select=name,category,createdAt">https://freerandomapi.herokuapp.com/api/v1/museums?select=name,category,createdAt</a>
+                            </ul>
+                          <li>If you want to sort by a key (default: createdAt), please put a query with word
+                            &ldquo;sort&rdquo; like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/museums?sort=name">https://freerandomapi.herokuapp.com/api/v1/museums?sort=name</a>
+                            </ul>
+                          <li>You can place multiple queries like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/museums?limit=30&amp;page=5&amp;select=name,category&amp;sort=name">https://freerandomapi.herokuapp.com/api/v1/museums?limit=30&amp;page=5&amp;select=name,category&amp;sort=name</a>
+                            </ul>
+                        </ul>
+                      </small><br><br>
+                      <h5 class="label label-info">Query</h5>
+                      <table class="table table-hover">
+                        <thead>
+                          <tr>
+                            <th>Key
+                            <th>Value
+                            <th>Description
+                        <tbody>
+                          <tr>
+                            <td>limit
+                            <td>1
+                            <td>
+                      </table><select class=resp-selector>
+                        <option value>Select Example Request/Response
+                        <option value=req_res_MuseumAPI_GetMuseums_0_GetMuseums>Get Museums
+                      </select><br>
+                      <section id=req_res_MuseumAPI_GetMuseums_0_GetMuseums style=display:none>
+                        <h4>Example Request</h4>
+                        <h5>URL: https://freerandomapi.herokuapp.com/api/v1/museums?limit=1</h5>
+                        <h5 class="label label-info">Query</h5>
+                        <table class="table table-hover">
+                          <thead>
+                            <tr>
+                              <th>Key
+                              <th>Value
+                              <th>Description
+                          <tbody>
+                            <tr>
+                              <td>limit
+                              <td>1
+                              <td>
+                        </table>
+                        <h4>Example Response</h4>
+                        <h5 class="label label-success">Body</h5><span class=resp-prettyprint>{
+                          &#34;success&#34;: true,
+                          &#34;count&#34;: 1,
+                          &#34;pagination&#34;: {
+                          &#34;total&#34;: 66,
+                          &#34;totalPages&#34;: 66,
+                          &#34;next&#34;: {
+                          &#34;page&#34;: 2,
+                          &#34;limit&#34;: 1
+                          }
+                          },
+                          &#34;data&#34;: [
+                          {
+                          &#34;_id&#34;: &#34;62e05fd6c5a85e6afda3e51b&#34;,
+                          &#34;name&#34;: &#34;National Atomic Testing Museum&#34;,
+                          &#34;location&#34;: &#34;Las Vegas, Nevada, United States&#34;,
+                          &#34;coordinates&#34;: &#34;36.11416°N 115.1486°W&#34;,
+                          &#34;type&#34;: &#34;History museum&#34;,
+                          &#34;category&#34;: &#34;Atomic/Nuclear&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/f/fb/ATOMIC_TESTING_MUSEUM_01.JPG&#34;,
+                          &#34;photoAttribute&#34;: &#34;By Photo by zzyzx - Own work, CC BY-SA 3.0,
+                          https://commons.wikimedia.org/w/index.php?curid=711841&#34;,
+                          &#34;website&#34;: &#34;http://nationalatomictestingmuseum.org/&#34;,
+                          &#34;createdAt&#34;: &#34;2022-07-26T21:42:46.097Z&#34;,
+                          &#34;__v&#34;: 0
+                          }
+                          ]
+                          }</span>
+                        <div class=clearfix></div>
+                        <h5 class="label label-info">Code:</h5><strong>200</strong>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -8686,7 +8831,7 @@
     <div class=container-fluid>
       <div class="span12 text-center"><span data-toggle=tooltip
           title="If the application help you, please feel free to give a star to the project in github. Your star inspire me to work more on open-source projects like this!">Generated
-          at 2022-07-22 15:36:33 by <a href=https://github.com/thedevsaddam/docgen target=_blank
+          at 2022-07-26 16:54:38 by <a href=https://github.com/thedevsaddam/docgen target=_blank
             class=text-muted>docgen</a></span></div>
     </div>
   </footer>
