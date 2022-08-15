@@ -1,0 +1,233 @@
+[
+  {
+    "name": "Chocolate chip cookies",
+    "category": "Cookie",
+    "photoUrl": "https://live.staticflickr.com/3353/4643536339_040a11812c_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/kimberlykv/",
+    "description": "Chocolate Chip Cookies are a classic American dessert. Chocolate chips are added to plain butter cookies and baked until they become crispy and brown. These delicious treats are perfect for any occasion!"
+  },
+  {
+    "name": "Peanut butter cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Peanut_Butter_Cookies_%284000565959%29.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/diekatrin/4000565959/",
+    "description": "Peanut Butter Cookies are delicious treats that have been around since the early 1900's. Peanut Butter Cookie recipes vary widely depending on what type of cookie dough recipe you use. There are many different types of cookies that are made using peanut butter including chocolate chip, oatmeal raisin, sugar-free, and even vegan versions."
+  },
+  {
+    "name": "Oatmeal raisin cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/High_Fiber_Oatmeal_Raisin_Chocolate_Chip_Cookies_detail.jpg/1200px-High_Fiber_Oatmeal_Raisin_Chocolate_Chip_Cookies_detail.jpg?20100510164408",
+    "photoAttribute": "https://www.flickr.com/photos/98178986@N00/4242343669",
+    "description": "This cookie is made with walnuts and they are moist and delicious. The walnut flavor is what makes this cookie so good. Everyone who loves raisony cookies will love this recipe."
+  },
+  {
+    "name": "Shortbread cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Shortbread_cookies_stacked_on_a_wire_rack.jpg",
+    "photoAttribute": "https://flickr.com/photos/27225909@N07/4178183002",
+    "description": "These shortbread cookies are a little crunchy and a little crumbly, but they have just the right amount of sweetness to keep you coming back for more. The taste is like that of a buttery graham cracker, but with a bit of vanilla and cinnamon to make them extra special."
+  },
+  {
+    "name": "Gingerbread cookies",
+    "category": "Cookie",
+    "photoUrl": "https://www.publicdomainpictures.net/pictures/150000/nahled/3-gingerbread-man-cookies.jpg",
+    "photoAttribute": "",
+    "description": "The taste of a gingerbread cookie is warm, sweet, and just a little spicy. It's not too hard or too soft—it's just right. The flavor is subtle enough that you can enjoy it any time of year, but festive enough to make you feel like Christmas has come early."
+  },
+  {
+    "name": "Sugar cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Grannie_Gilbert%27s_Sugar_Cookies.jpg/800px-Grannie_Gilbert%27s_Sugar_Cookies.jpg?20200430002853",
+    "photoAttribute": "AceDragonfly, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Our sugar cookies are sweet and delicious, with a hint of vanilla. They're the perfect snacking cookie!"
+  },
+  {
+    "name": "Black and white cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Vegan_Black_and_White_Cookies_%288745832011%29.jpg/800px-Vegan_Black_and_White_Cookies_%288745832011%29.jpg?20140928062459",
+    "photoAttribute": "Veganbaking.net from USA, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "The taste of this black-and-white cookie is best described as something you've never tasted before. It's a delicious combination of chocolate and vanilla, but with a twist—the vanilla is actually a surprise!"
+  },
+  {
+    "name": "Butter cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/2019-11-29_14_52_43_The_interior_of_a_tin_of_McKenzie_%26_Lloyds_Danish_Style_Butter_Cookies_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg",
+    "photoAttribute": "Famartin, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "I would describe the taste of these cookies as buttery, sugary and delicious. They have a nice, soft texture and are very sweet."
+  },
+  {
+    "name": "Snickerdoodle cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Pile_of_snickerdoodles.jpg",
+    "photoAttribute": "jim Winstead from los angeles, usa, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Snickerdoodle cookies are like the best cinnamon roll, but in a handheld form. They're soft and chewy and warm, with just the right amount of spice to make you feel cozy. And when you bite into them, they're literally like eating a cloud."
+  },
+  {
+    "name": "White chocolate macadamia nut cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/White_Chocolate_macadamia_nut_cookies_%283499207554%29.jpg",
+    "photoAttribute": "Andie712b from Kailua, Hawaii, USA, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Everyone loves white chocolate macadamia nut cookies. They're sweet and chewy, with a little bit of crunch on the outside. They can be dipped them in milk and have the white chocolate chips melt on the tongue."
+  },
+  {
+    "name": "Biscotti",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Cantuccini-Toscani.jpg",
+    "photoAttribute": "Gwang17-Blog: intoafoodcoma.wordpress.com, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Our biscotti is a crunchy, buttery delight. The taste is similar to that of a cookie, but it has the added crunch of almonds and coconut. You can really feel the texture when you bite into one, which makes it a great snack food!"
+  },
+  {
+    "name": "Gingersnaps",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Round_gingersnaps.jpg",
+    "photoAttribute": "Editor at Large, CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5>, via Wikimedia Commons",
+    "description": "The taste of gingersnaps is like a nostalgic memory you can't quite place, but it's warm and sweet and makes you feel good. It tastes like home."
+  },
+  {
+    "name": "Peanut Butter Blossoms",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Peanut_butter_blossoms_closeup.jpg",
+    "photoAttribute": "Bryan Ochalla, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "The peanut butter blossoms are a delicious treat that's great for any time of day. They're crunchy, but not too crunchy, and they have just enough sweetness to make you want to keep going back for more. The peanut butter filling is rich and creamy, with just the right amount of saltiness to balance out the sweetness."
+  },
+  {
+    "name": "Macarons",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Macarons%2C_French_made_mini_cakes.JPG",
+    "photoAttribute": "Nicolas Halftermeyer, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "The macarons are a little bit crunchy and have a light, airy texture that melts in your mouth. The flavor is subtle and light, with no overpowering sweetness or saltiness. It has a nice balance of flavors that makes it just perfect for snacking on!"
+  },
+  {
+    "name": "Macaroons",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Macaroons_in_Korea.jpg",
+    "photoAttribute": "SungMinSeung, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "These macaroons are like the love child of chocolate chip and coconut. They're sweet, but not too sweet, and they have just enough salt to make them interesting. They're chewy, but also soft—and if you try one with a cup of coffee or tea, you'll see why these are so addictive!"
+  },
+  {
+    "name": "Butter Pecan Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Butter_pecan_cookies.jpg",
+    "photoAttribute": "Teresa Trimm, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "Butter pecan cookies are buttery, crunchy, and nutty. They're the perfect balance of salty and sweet, with a subtle aftertaste of vanilla. The dough is tender and soft, but once you bite into them you get that satisfying crunch of pecans."
+  },
+  {
+    "name": "Crinkle Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Chocolate_Crinkles.jpg",
+    "photoAttribute": "John V. Pozniak, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Chocolate crinkles cookies are the perfect blend of crunchy and soft, with a subtle sweetness that adds just enough flavor without overwhelming your taste buds."
+  },
+  {
+    "name": "Whoopie Pies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Whoopiepies1.jpg",
+    "photoAttribute": "MachineKeebler at the English Wikipedia, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons",
+    "description": "They're like a big, soft cookie sandwich. The filling is rich and creamy and the cake of the cookie is soft and buttery."
+  },
+  {
+    "name": "Molasses Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Molasses-Cookies-2006March09.JPG",
+    "photoAttribute": "No machine-readable author provided. Naib assumed (based on copyright claims)., CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5>, via Wikimedia Commons",
+    "description": "Molassess cookies are soft, chewy, and delicious. They have a caramel-like flavor that's enhanced by the slight bitterness of the molasses."
+  },
+  {
+    "name": "Fortune Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Fortune_cookies.jpg",
+    "photoAttribute": "Ksayer1, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "The taste of the cookie is like a warm hug. It's sweet, but not too sweet; it has a little bit of crunch, but not too much. The cookie is also just the right size and shape to fit in your hand and make you feel better when you're feeling down, or to give an extra boost of energy when you need one!"
+  },
+  {
+    "name": "Hamantaschen",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Homemade_hamantaschen_%28cropped%29.jpg",
+    "photoAttribute": "Yoninah, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons",
+    "description": "The taste of hamantaschen is like a cross between a chocolate chip cookie and a shortbread cookie. It's a little crispy on the outside, but chewy on the inside. If you love chocolate, you'll probably love it. If you're not a huge fan of chocolate, but still want something sweet to eat with your coffee or tea in the morning, this is definitely the cookie for you!"
+  },
+  {
+    "name": "Icebox cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Ice_Box_Bakery_cookies_%284714890352%29.jpg",
+    "photoAttribute": "Elizabeth from Lansing, MI, USA, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Our cookies are delicious and delightful! They have a crisp exterior and a soft, chewy center. They're made with all natural ingredients, so you can feel good about eating them."
+  },
+  {
+    "name": "Lofthouse cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/2019-12-03_17_05_55_Two_Lofthouse_Holiday_Frosted_Sugar_Cookies_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg",
+    "photoAttribute": "Famartin, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Lofthouse cookies are light and fluffy, with a hint of vanilla and cinnamon. They're the perfect treat to have on hand when you want something sweet but need a quick snack."
+  },
+  {
+    "name": "Meringue cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Meringue_cookies.jpg",
+    "photoAttribute": "Benjamin Ikuta, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "These cookies are light and airy, just like a meringue! They have a subtle sweetness with a hint of lemon."
+  },
+  {
+    "name": "Mexican weeding cookies",
+    "category": "Cookie",
+    "photoUrl": "https://live.staticflickr.com/5082/5371474378_0e82018c77_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/sliceofchic/5371474378",
+    "description": "Mexican wedding cookies are a sweet treat that tastes like a cross between a shortbread cookie and a flan. They're made with cornstarch, which gives them the texture of shortbread, while their flavor is more akin to flan. The most common way to eat them is topped with powdered sugar or drizzled with honey, but you can also serve them plain or try experimenting with different toppings!"
+  },
+  {
+    "name": "Rugelach",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/ChocolateRugelach.JPG",
+    "photoAttribute": "Yair rand, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "The taste of a rugelach is a little bit cinnamon, a little bit chocolate, and a whole lot of good."
+  },
+  {
+    "name": "Snowball cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Bashkir_qurut.png",
+    "photoAttribute": "Haqmar, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "The taste of a snowball cookie is like a delicate blend of vanilla, chocolate, and marshmallow. It's not too sweet, so the flavor isn't overpowering. The texture is light, but it still feels like it will stick to your teeth. It's just the right amount of chewy."
+  },
+  {
+    "name": "Spritz cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Spritz_with_no_coloring.JPG",
+    "photoAttribute": "MarkTraceur, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Spritz cookies are a classic Italian cookie. They're made with almond flour and egg whites, so they're low-calorie, but they taste like you're eating a cookie straight out of your grandmother's kitchen. They have a light, sweet flavor that tastes like vanilla and almond, but with a hint of lemon zest."
+  },
+  {
+    "name": "Thumbprint cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Thumbprint_cookies_before_baking%2C_September_2009.jpg",
+    "photoAttribute": "Ginny, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "These cookies are like the best parts of a chocolate chip cookie and a snickerdoodle combined into one. They're soft, sweet, and slightly crunchy—the perfect combination!"
+  },
+  {
+    "name": "Cornflake cookies",
+    "category": "Cookie",
+    "photoUrl": "https://live.staticflickr.com/5347/17892784650_f5a16f9a0a_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/like_the_grand_canyon/17892784650",
+    "description": "Cornflake Cookies are light and airy, with a hint of vanilla. They're crunchy on the outside, but soft in the middle—so you get the best of both worlds!"
+  },
+  {
+    "name": "Alfajores",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Alfajores-de-maicena-biscuits-recipe.jpg",
+    "photoAttribute": "Sara McCleary, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Alfajores are a traditional Argentinian cookie made with sugar, flour, egg, and dulce de leche, which is a sweetened milk product. They're usually served sandwiched together with a piece of dulce de leche in the middle. The cookies are soft and crumbly and have a very delicate flavor. The dulce de leche filling is sweet but not too sweet—it's the perfect amount of sweetness to balance out the other flavors in the cookie."
+  },
+  {
+    "name": "Benne Wafers",
+    "category": "Cookie",
+    "photoUrl": "https://live.staticflickr.com/5469/8836467272_f7234f88fc_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/wallyg/8836467272",
+    "description": "The taste of benne wafers is a little bit like the feeling you get when you're eating a fresh, warm cookie straight out of the oven. It's sweet, but not too sugary. It's buttery and rich, but not heavy or greasy. And it has just enough salt to make the whole thing brighten up your day."
+  },
+  {
+    "name": "Birthday Cake Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://www.publicdomainpictures.net/en/view-image.php?image=269155&picture=kitty-cookies",
+    "photoAttribute": "",
+    "description": "The taste of these cookies is like a birthday party in your mouth! They're the perfect mix of sweet and salty, and the sprinkles bring it all together."
+  }
+]
