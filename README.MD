@@ -25,6 +25,7 @@ Table of Contents
     - National Museums in USA With Images
 
 ## How to contribute? <a name="contribute"></a>
+- ### You must be a member of the Devslopes-Herd and Devslopes Academy. You may not participate in this repo if you are not a member.
 - Go to the [Team Radio Tower Project](https://github.com/orgs/Devslopes-Herd/projects/5) and look for open Issues
 - Choose one you'd like to work on and change the Issue status to "In Progress"
 - Assign yourself
