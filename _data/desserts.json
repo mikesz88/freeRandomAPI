@@ -420,214 +420,214 @@
     "description": "These light and fluffy donuts are filled with vanilla custard, then topped with fresh strawberry, raspberry, and blueberry. We recommend trying one of each!"
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Bomboloni",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Bomboloni.jpg",
+    "photoAttribute": "Photo by Flickr user nromagna (Gianna Nannini ?), CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Bomboloni are a soft yeast donut that contains no trans fats, saturated fats or cholesterol. They are also customizable and can be served with icing, chocolate drizzle and more! A great treat for any occasion"
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Beignet ",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Beignets_and_Caf%C3%A9_au_Lait_at_Caf%C3%A9_du_Monde%2C_New_Orleans.jpg",
+    "photoAttribute": "Pburka, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "The Beignet is a classic donut that has been a New Orleans favorite for generations. Light and fluffy with a crisp exterior, the Beignet is made of yeast dough that is fried to perfection. It's then topped with confectioners' sugar, cinnamon or even powdered sugar for added sweetness. Available in both a large size and mini version, this is the perfect treat to enjoy with friends!"
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Berliner",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Berliner_Pfannkuchen_1.jpg",
+    "photoAttribute": "Sebastian Koppehel, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons",
+    "description": "The Berliner is a fluffy, eggy donut. We bake them in-house every day, starting at 5:00 am and offering them to customers by 5:30 am. The Berliner is our take on the classic American glazed donut."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Oliebollen",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Oliebollen_2.jpg",
+    "photoAttribute": "Michelle_Boon, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Oliebollen taste like a delicious cross of a cinnamon sugar doughnut and warm, delicious Dutch buns. They are light on the inside and crunchy on the outside."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Loukoumades",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Loukoumades.jpg",
+    "photoAttribute": "Flickr.com user \"avlxyz\", CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "Loukoumades are sweet dessert donuts (also known as honey balls) that are traditionally fried in olive oil and sprinkled with cinnamon"
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Krafne",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Pokladnice_Kri%C5%BEevci_2008.JPG",
+    "photoAttribute": "SpeedyGonsales, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "Krfne is a donut with a soft and fluffy texture that melts in your mouth. We use the best ingredients in our dough, which includes fresh fruits and high quality chocolate. Try it today!"
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Farsangi Fank",
+    "category": "Donuts",
+    "photoUrl": "https://live.staticflickr.com/3516/3306154353_f851f05cb5_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/debreczeniemoke/3306154353",
+    "description": "Farsangi Fank is a donut that contains chocolate, fruit and cream with ice cream and sprinkles."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Spurgos",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Var%C5%A1kin%C4%97s_spurgos.JPG",
+    "photoAttribute": "Bearas, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "The Spurgos donut is a delightful donut with a delicious taste. It has the sweet taste of vanilla, and it’s delightfully crispy on the outside. The inner texture is soft, fluffy, and delicious."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
-  },
-    {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Paczki",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Polish_p%C4%85czki_%281%29.jpg",
+    "photoAttribute": "MichalPL, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "The traditional Polish treat, paczki (pronounced PONCHKEE), is a fried dough pastry filled with your choice of fruit or custard. They're traditionally eaten on Fat Thursday, the last day before Lent."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Ponchiki",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ponchiki_on_a_plate.jpg",
+    "photoAttribute": "Misharim, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons",
+    "description": "Ponchiki is a tasty donut with a soft, sweet and fluffy texture. We use real vanilla flavor and fresh milk from local farms."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Pampushky",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Pampushky.jpg",
+    "photoAttribute": "Kagor at the Ukrainian language Wikipedia, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons",
+    "description": "The Pampushky is a pastry that is made to look like a donut, but tastes nothing like one. Enjoy the fun and fashionable design while indulging in your favorite flavor!"
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
-  },
-    {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Matcha",
+    "category": "Donuts",
+    "photoUrl": "https://live.staticflickr.com/4074/4899662553_fd5b59fd17_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/donutgirl/4899662553",
+    "description": "A soft and chewy doughnut with a sweet, creamy filling that matches the green tea flavor in the dough."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
-  },
-    {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Sata Andagi",
+    "category": "Donuts",
+    "photoUrl": "https://live.staticflickr.com/8361/8322304131_fe51792a55_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/jpellgen/8322304131",
+    "description": "The Sata Andagi donut is a light and fluffy cake-type donut that is filled with sweet red bean paste. It is light enough to eat a bunch at a time and will satisfy your sweet tooth."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Mochi",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Mochi_Donut.jpg",
+    "photoAttribute": "Snoice, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Don't let the name fool you, our Mochi donut is far from being a soft and fluffy texture. It's actually crispy on the outside and fluffy on the inside, with a sweet, doughy flavor that's hard to resist."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Vegan Donut",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Donuts_Vegan.jpg",
+    "photoAttribute": "Ogidya, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Our vegan donuts are light and fluffy, with just the right amount of sweetness, and they won’t weigh you down. We use delicious ingredients like coconut oil, vanilla bean paste and agave syrup to create our donuts which are dairy-free, soy-free and cholesterol-free."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
+    "name": "Sushi Donuts",
+    "category": "Donuts",
+    "photoUrl": "https://d1ralsognjng37.cloudfront.net/8cd32b02-4ac3-414f-9e91-522aa4adaa45.webp",
     "photoAttribute": "",
-    "description": ""
+    "description": "Like fine sushi, these donuts are made to order. They arrive at your door warm and fresh. The donut itself is light and fluffy while the unagi filling is savory and delicate."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Youtiao",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Youtiao.jpg",
+    "photoAttribute": "Popo le Chien, CC0, via Wikimedia Commons",
+    "description": "Youtiao, a Chinese breakfast staple, is a deep-fried strip of dough that is found on every street corner and in just about every Chinese household. It's a chewy, somewhat sweet breadstick with an addictive taste that can be eaten on its own or as part of a meal."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Jiandui",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jian_dui_in_London_%28Chinatown%29.jpg",
+    "photoAttribute": "MOs810, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Jiandui is a very delicious donut with a crisp and crunchy outside coating, moist and soft inside. It's filled with chocolate chips that keep your mouth watering for more. While you eat it, you can't resist to just take another bite!"
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Shuangbaotai",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Taiwanesefriedfood1.jpg",
+    "photoAttribute": "lovesx-70, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Shuangbaotai is a donut that tastes like the most delicious things on earth, made completely from scratch. Unlike many donuts you'll find in stores, a Shuangbaotai is not made from a bag of premix batter. These are hand-crafted by skilled pastry chefs and take hours to perfect."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Shakoy",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Shakoy_doughnut.jpg",
+    "photoAttribute": "Obsidian Soul, CC0, via Wikimedia Commons",
+    "description": "Shakoy's donuts are a sweet treat, and we are so excited to tell you all about our most popular donut: Strawberry! The fresh dough, glazed with strawberry icing, is absolutely delicious."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Pa Thong Ko",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/%E0%B8%9B%E0%B8%B2%E0%B8%97%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%82%E0%B8%81%E0%B9%8B.jpg",
+    "photoAttribute": "Phoebus 28, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Pa Thong Ko is a donut made with a combination of yeast, flour and egg. It's light, crunchy on the outside with an airy and chewy interior. Our donuts are made fresh every morning and can be ordered with your choice of toppings such as nutella and toasted coconut flakes."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Vada",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Vada_2.jpg",
+    "photoAttribute": "Charles Haynes, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "The perfect combination of a donut and vada, the Vada is a classic favorite. It’s crispy outside and soft inside. Our Vada donuts have a balanced sweet and savory flavor – they are golden brown on the outside but not too sweet."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Gulgule",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Gulgule.jpg",
+    "photoAttribute": "Suyash Dwivedi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Soft and fluffy, with a crispy outside, so gooey on the inside your fingers will get sticky."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Sel Roti",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Sel_Roti.jpg",
+    "photoAttribute": "Swapnet at English Wikipedia, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "Donuts are a go-to treat for many, but the Sel Roti donut has its own unique appeal. Its taste is described as light, fluffy and fresh, with a crisp sugar coating on top. The flavor of the inside is delicate and distinctively different from other donuts that you’ll find elsewhere."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Tulumba",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Tulumba02.JPG",
+    "photoAttribute": "Maderibeyza, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "Tulumba is a donut that has a fluffy, light texture and a delicious cinnamon aroma. The texture is similar to a bagel, which makes it easy to eat without getting your hands messy."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Sufganiyot",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Classic_Hanukkah_sufganiyot.JPG",
+    "photoAttribute": "Noam Furer, CC0, via Wikimedia Commons",
+    "description": "This is a donut made of pillowy softness. It has been glazed with vanilla icing, making it sweet and bitter at the same time. It is a treat for your mouth."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Sfenj",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Sfenj_in_Marrakesh_Morocco.jpg",
+    "photoAttribute": "Jc wik m001, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "The donut is crispy and crunchy, with a warm and gooey center. The sugar on top gives the whole thing an extra burst of flavor and sweetness."
+  },
+  {
+    "name": "Koeksister",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Koeksisters.JPG",
+    "photoAttribute": "DO'Neil, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons",
+    "description": "What if a donut were grilled, crunchy and dredged with powdered sugar and cinnamon? That’s what a koeksister is. It’s made from a yeast doughnut (you can make it from scratch or use store-bought) that gets pressed, sliced, battered and fried until golden brown."
+  },
+  {
+    "name": "Vetkoek",
+    "category": "Donuts",
+    "photoUrl": "https://c.pxhere.com/photos/35/16/donuts_pastries_eating-757999.jpg!d",
+    "photoAttribute": "https://pxhere.com/en/photo/757999",
+    "description": "If you love donuts, you're going to love our Vetkoek. It's a fluffy, spicy and chewy Dutch delicacy that will give your taste buds a flavor overload."
+  },
+  {
+    "name": "Hot Jam Doughnuts",
+    "category": "Donuts",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Hot_Jam_Doughnuts_%28cropped%29.jpg",
+    "photoAttribute": "Finbar.concaig, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Jam-filled doughnuts are an extremely popular treat that are often served at breakfast time. This premium doughnut is made with a cake dough base and filled with strawberry jam. Jam doughnuts are light and fluffy without being too sweet like other fruit-filled donuts. These delicious treats are perfect for breakfast or as a snack"
   },
   {
     "name": "",
