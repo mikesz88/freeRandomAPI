@@ -1,6 +1,6 @@
 [
   {
-    "name": "Chocolate chip cookies",
+    "name": "Chocolate chip",
     "category": "Cookie",
     "photoUrl": "https://live.staticflickr.com/3353/4643536339_040a11812c_b.jpg",
     "photoAttribute": "https://www.flickr.com/photos/kimberlykv/",
@@ -630,255 +630,213 @@
     "description": "Jam-filled doughnuts are an extremely popular treat that are often served at breakfast time. This premium doughnut is made with a cake dough base and filled with strawberry jam. Jam doughnuts are light and fluffy without being too sweet like other fruit-filled donuts. These delicious treats are perfect for breakfast or as a snack"
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Vanilla",
+    "category": "Ice Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Vanilla_Ice_Cream_Cone_at_Camp_Manitoulin.jpg",
+    "photoAttribute": "Steven Depolo, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Made from the freshest ingredients. Our vanilla ice cream tastes like a creamy bowl of vanilla bean heaven."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Chocolate",
+    "category": "Ice Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2018-03-04_17_55_48_Large_serving_of_chocolate_soft-serve_ice_cream_at_the_Carvel_off_of_Denow_Road_in_Hopewell_Township%2C_Mercer_County%2C_New_Jersey.jpg",
+    "photoAttribute": "Famartin, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Chocolate ice cream has a rich, creamy texture that is velvety and smooth on your tongue, with a rich chocolaty flavor"
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Chocolate Chip",
+    "category": "Ice Cream",
+    "photoUrl": "https://live.staticflickr.com/4145/5033870639_c70a816b00.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/54397539@N06/5033870639",
+    "description": "You’ll be in chocolate heaven with our creamy, delicious Chocolate Chip Ice Cream. Full of rich, real chocolate chips and only the best ingredients, this is a 100% dairy ice cream that you can feel good about eating. It's so good it may become your new favorite!"
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Butter Pecan",
+    "category": "Ice Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Butter_pecan_caramel_ice_cream.jpg",
+    "photoAttribute": "kochtopf, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Butter pecan ice cream is a classic. It's creamy, salty, and sweet, with a hint of nutty butter. It's the perfect balance of flavors!"
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Chocolate Chip Cookie Dough",
+    "category": "Ice Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Chocolate_chip_cookie_dough_ice_cream_with_orange_spoon.jpg",
+    "photoAttribute": "pamramsey, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "Chocolate Chip Cookie Dough ice cream is like a chocolate chip cookie in ice cream form. It's got all the same flavors: chocolate chips, vanilla, sugar and brown sugar. But it's creamier than a cookie, and you don't have to worry about getting crumbs everywhere when you eat it!"
   },
   {
-    "name": "",
+    "name": "Eggnog",
     "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "photoUrl": "https://live.staticflickr.com/3689/11506095255_05c86b933a_z.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/kridgway/11506095255",
+    "description": "There's nothing quite like eggnog ice cream during the holidays. It's rich and creamy, with just the right amount of sweetness. And the best part? The flavor of eggnog comes through perfectly."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Eskimo",
+    "category": "Ice Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Iced_Akutaq.jpg",
+    "photoAttribute": "Matyáš Havel, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "Eskimo ice cream is unlike any other ice cream you've ever tasted. It's made with a variety of ingredients including fish, seal oil, and reindeer milk, and has a unique, oily texture that takes some getting used to."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Strawberry",
+    "category": "Ice Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Strawberry_ice_cream_cone_%285076899310%29.jpg",
+    "photoAttribute": "TheCulinaryGeek from Chicago, USA, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "There's nothing quite like a strawberry ice cream on a hot summer day. The sweet, fruity flavor is like a little piece of heaven in your mouth. It's the perfect way to cool down and enjoy the warm weather."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Horchata",
+    "category": "Ice Cream",
+    "photoUrl": "https://live.staticflickr.com/3886/14373555935_56415a885b_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/thomashawk/14373555935",
+    "description": "Horchata is a traditional drink from Spain that is made with tiger nuts, water, and sugar. It has a sweet and nutty flavor that is perfect for ice cream. The Horchata ice cream from Spain is made with tiger nuts, water, sugar, and cream."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Lemon Custard",
+    "category": "Ice Cream",
+    "photoUrl": "https://live.staticflickr.com/4140/4808582485_1d01e1eee2_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/notahipster/4808582485",
+    "description": "There's nothing quite like the zesty, tart taste of lemon custard ice cream. It's the perfect summertime treat! The smooth, creamy custard is laced with tangy lemon flavor, making it a refreshing and indulgent treat."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Cookies ‘N Cream",
+    "category": "Ice Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Udders_Cookies_and_Cream_Ice_Cream.jpg",
+    "photoAttribute": "Carmenwongjw, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "There's nothing quite like the taste of Cookies 'N Cream ice cream. It's the perfect blend of sweet and creamy, with just the right amount of crunch from the cookies. It's a classic flavor that always hits the spot, no matter what the occasion."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Mint Chocolate Chip",
+    "category": "Ice Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/2020-04-27_18_23_07_A_spoonful_of_Friendly%27s_Mint_Chocolate_Chip_Ice_Cream_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg",
+    "photoAttribute": "Famartin, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Mint Chocolate Chip ice cream is one of the most refreshing and flavorful ice cream flavors out there. The mint flavor is strong and invigorating, while the chocolate chips provide a smooth and rich taste. The combination of these two flavors is simply unforgettable."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Moose Tracks",
+    "category": "Ice Cream",
+    "photoUrl": "https://live.staticflickr.com/4035/4482898467_c6c5e0bdf4_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/ginnerobot/4482898467",
+    "description": "Moose Tracks is a flavor of ice cream that is chocolate with peanut butter cups and fudge swirls. It is a very rich and creamy flavor that is also very sweet."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Neapolitan",
+    "category": "Ice Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Neapolitan.jpg",
+    "photoAttribute": "No machine-readable author provided. Pschemp assumed (based on copyright claims)., CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons",
+    "description": "There's nothing quite like the taste of Neapolitan ice cream. This flavor is a classic for a reason - it's simply delicious! Neapolitan ice cream is made with three flavors - chocolate, vanilla, and strawberry - all swirled together in one creamy, delicious pint. The chocolate and vanilla flavors are rich!"
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Cotton Candy",
+    "category": "Ice Cream",
+    "photoUrl": "https://live.staticflickr.com/8291/7705324222_c61d866d38_z.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/davidberkowitz/7705324222",
+    "description": "Cotton candy ice cream is one of the most unique and delicious flavors of ice cream out there. It has a light and airy flavor that is reminiscent of cotton candy itself. The ice cream is also flecked with pieces of real cotton candy, which add a fun and festive touch."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Butterscotch",
+    "category": "Ice Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/ButterScotch-Waffle-IceCream_Scoop.jpg",
+    "photoAttribute": "IdeasCoach, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "There's something about butterscotch ice cream that just hits the spot. It's the perfect balance of sweet and rich, with a creamy texture that melts in your mouth. It's no wonder this flavor is a classic favorite."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "German Chocolate Cake",
+    "category": "Ice Cream",
+    "photoUrl": "https://live.staticflickr.com/4011/4679606588_5a33895224_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/kimberlykv/4679606588",
+    "description": "There's nothing quite like a rich, chocolatey German Chocolate Cake ice cream. The chocolate flavor is intense and the cake pieces add a lovely sweetness and texture. This is a must-try for any chocolate lover!"
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Matcha",
+    "category": "Ice Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Matcha_ice_cream_shiratama.jpg",
+    "photoAttribute": "Japanit matcha, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "If you’ve never had matcha before, you’re in for a treat! Matcha ice cream is a delicious and refreshing treat that’s perfect for summer. The taste of matcha is often described as earthy, grassy, and slightly sweet. When combined with rich and creamy ice cream, the taste is unlike you ever had before."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Teaberry",
+    "category": "Ice Cream",
+    "photoUrl": "http://www.icecreampark.com/img/teaberry-1.jpg",
+    "photoAttribute": "http://www.icecreampark.com/teaberry-icecream.html",
+    "description": "There's something special about Teaberry ice cream. It's hard to put your finger on it, but there's an unmistakable flavor that sets it apart from other ice cream flavors. It's a little bit like strawberry, a little bit like raspberry, and a little bit like tea."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
+    "name": "Ube",
+    "category": "Ice Cream",
+    "photoUrl": "https://www.publicdomainpictures.net/pictures/90000/velka/ube-ice-cream.jpg",
     "photoAttribute": "",
-    "description": ""
+    "description": "If you've never had Ube ice cream before, you're in for a treat! This Filipino specialty is made with purple yams, which give the ice cream a unique flavor and color. Some say it tastes like a cross between a sweet potato and a vanilla bean. Others say it's more like a floral flavor with hints."
   },
     {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Reese’s Peanut Butter Cup",
+    "category": "Ice Cream",
+    "photoUrl": "https://live.staticflickr.com/4135/4760606471_b8f3727b7e_z.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/27129991@N03/4760606471",
+    "description": "There's nothing quite like the taste of Reese's Peanut Butter ice cream. The rich, creamy peanut butter flavor is perfectly paired with the smooth, decadent ice cream. It's a heavenly combination that is sure to satisfy your sweet tooth. Whether you're a peanut butter lover or not, you'll definitely enjoy this delicious treat."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Cherry Garcia",
+    "category": "Ice Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cherry_garcia.JPG",
+    "photoAttribute": "Don.chulio, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons",
+    "description": "There's nothing quite like a scoop of Cherry Garcia ice cream. The rich, creamy flavor is studded with sweet cherries and pieces of chocolate. It's the perfect treat on a hot summer day."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Rocky Road",
+    "category": "Ice Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Rockyroadicecream.jpg",
+    "photoAttribute": "stu_spivack, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "Rocky Road ice cream is one of the most popular flavors of ice cream in the United States. It is made with chocolate ice cream, marshmallows, and nuts. The chocolate ice cream is usually made with chocolate chips or chocolate syrup. The marshmallows are usually mini marshmallows. The nuts can be any type."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Peanut Butter and Jelly",
+    "category": "Ice Cream",
+    "photoUrl": "https://www.kleinworthco.com/wp-content/uploads/2014/08/20140808_26-copy-web-950.jpg",
+    "photoAttribute": "https://www.kleinworthco.com/peanut-butter-jelly-ice-cream/",
+    "description": "There's nothing quite like the taste of Peanut Butter and Jelly ice cream. The perfect combination of sweet and salty, with a creamy peanut butter flavor and a tart jelly flavor, it's a delicious treat that's perfect for any occasion."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Mango",
+    "category": "Ice Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Mango_Ice_cream_at_Molave_Milk_Station.jpg",
+    "photoAttribute": "George Parrilla, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "There's nothing like a cold, creamy scoop of mango ice cream on a hot summer day. The sweet, juicy flavor of mangoes is the perfect complement to the rich, creamy texture of ice cream. And when it's made with real mangoes, it's even better!"
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Pralines ‘n Cream",
+    "category": "Ice Cream",
+    "photoUrl": "https://world.openfoodfacts.org/images/products/003/663/108/5154/front_en.3.full.jpg",
+    "photoAttribute": "https://world.openfoodfacts.org/product/0036631085154/pralines-n-cream-basking-robbins",
+    "description": "There's something about the perfect balance of sweet and salty that keeps us coming back for more when it comes to pralines 'n cream ice cream. The rich, creamy base is studded with crunchy bits of praline, and the whole thing is swirled with a sticky-sweet caramel sauce."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Chunky Monkey",
+    "category": "Ice Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Chunky_monkey.JPG",
+    "photoAttribute": "Don.chulio, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons",
+    "description": "Chunky Monkey is one of the most popular flavors of ice cream for a reason – it's insanely delicious! The combination of chocolate, banana, and nuts is a flavor bomb that will have your taste buds going crazy. The chocolate is rich and creamy, while the bananas add a sweetness and creaminess that takes the flavor to whole other level."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Salted Caramel",
+    "category": "Ice Cream",
+    "photoUrl": "https://live.staticflickr.com/1464/26314112816_2df96c2d2e_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/68147320@N02/26314112816",
+    "description": "There's nothing quite like the taste of salted caramel ice cream. It's the perfect blend of sweet and salty, with a creamy texture that melts in your mouth. The best part is, it's easy to make at home!"
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "Superman",
+    "category": "Ice Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Ice_cream_dish_-_superman_flavor.jpg",
+    "photoAttribute": "Carl Lender, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Superman ice cream is one of the most unique and flavorful ice creams out there. It has a strong vanilla flavor with a hint of blueberry, which gives it a superman-like feel. The blueberry flavor is not too overpowering, but it's definitely there. The ice cream is also a bit sweeter than most other ice cream flavors."
   },
   {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
-  },
-    {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
-  },
-  {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
-  },
-  {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
-  },
-    {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
-  },
-    {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
-  },
-  {
-    "name": "",
-    "category": "",
-    "photoUrl": "",
-    "photoAttribute": "",
-    "description": ""
+    "name": "The Tonight Dough",
+    "category": "Ice Cream",
+    "photoUrl": "https://world.openfoodfacts.org/images/products/007/684/048/5116/front_en.25.full.jpg",
+    "photoAttribute": "https://world.openfoodfacts.org/product/0076840485116/ben-jerry-s-the-tonight-dough",
+    "description": "There's something about The Tonight Dough ice cream that just hits the spot. It's the perfect balance of sweet and salty, with a hint of caramel and chocolate thrown in for good measure. It's rich and creamy, with a perfect consistency for scooping. And it's just plain delicious."
   }
 ]
