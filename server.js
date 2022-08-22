@@ -20,6 +20,7 @@ connectDB();
 const dogRoutes = require('./routes/dogs');
 const catRoutes = require('./routes/cats');
 const museumRoutes = require('./routes/museums');
+const dessertRoutes = require('./routes/desserts');
 
 const PORT = process.env.PORT || 5000;
 
@@ -52,6 +53,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/api/v1/dogs', dogRoutes);
 app.use('/api/v1/cats', catRoutes);
 app.use('/api/v1/museums', museumRoutes);
+app.use('/api/v1/desserts', dessertRoutes);
 
 // Error Handling
 app.use(errorHandler)

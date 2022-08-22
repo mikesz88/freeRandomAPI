@@ -3,11 +3,12 @@ const mongoose = require('mongoose');
 const DessertSchema = new mongoose.Schema({
   name: {
     type: String,
+    unique: true,
     required: [true, 'What is the name of the museum?'],
   },
   category: {
     type: String,
-    enum: ['Cookie', 'Donuts', 'Ice Cream'],
+    enum: ['Cookie', 'Donut', 'Ice_Cream'],
     required: [true, 'What type of dessert is it?']
   },
   photoUrl: {
@@ -21,8 +22,7 @@ const DessertSchema = new mongoose.Schema({
   },
   photoAttribute: {
     type: String,
-    default: "This ia public domain image",
-    required: [true, 'Who is the author of the picture?']
+    default: "This is public domain image",
   },
   createdAt: {
     type: Date,
