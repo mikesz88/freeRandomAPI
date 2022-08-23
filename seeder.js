@@ -13,17 +13,16 @@ const Dessert = require('./models/dessert');
 
 mongoose.connect(process.env.MONGO_URI);
 
-// Read JSON
-// const museums = JSON.parse(fs.readFileSync(`${__dirname}/_data/museums.json`, 'utf-8'));
+const museums = JSON.parse(fs.readFileSync(`${__dirname}/_data/museums.json`, 'utf-8'));
 const desserts = JSON.parse(fs.readFileSync(`${__dirname}/_data/desserts.json`, 'utf-8'));
 
 const importData = async () => {
   try {
-    // const dogs = await createDogPool();
-    // await Dog.create(dogs);
-    // const cats = await createCatPool();
-    // await Cat.create(cats)
-    // await Museum.create(museums);
+    const dogs = await createDogPool();
+    await Dog.create(dogs);
+    const cats = await createCatPool();
+    await Cat.create(cats)
+    await Museum.create(museums);
     await Dessert.create(desserts);
     console.log('data imported');
     process.exit();
