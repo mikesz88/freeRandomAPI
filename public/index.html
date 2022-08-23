@@ -8420,6 +8420,13 @@
             <ul>
               <li><a class=endpoint_menu href=#jump-MuseumAPI-GetMuseums>Get Museums</a>
             </ul>
+          <li><strong><a href=#DessertAPI>Dessert API</a></strong>
+            <ul>
+              <li><a class=endpoint_menu href=#jump-DessertAPI-GetDesserts>Get Desserts</a>
+              <li><a class=endpoint_menu href=#jump-DessertAPI-GetCookies>Get Cookies</a>
+              <li><a class=endpoint_menu href=#jump-DessertAPI-GetDonuts>Get Donuts</a>
+              <li><a class=endpoint_menu href=#jump-DessertAPI-GetIceCream>Get Ice Cream</a>
+            </ul>
         </ul>
       </div>
       <div class=col-md-9>
@@ -8733,20 +8740,7 @@
                                   href="https://freerandomapi.herokuapp.com/api/v1/museums?limit=30&amp;page=5&amp;select=name,category&amp;sort=name">https://freerandomapi.herokuapp.com/api/v1/museums?limit=30&amp;page=5&amp;select=name,category&amp;sort=name</a>
                             </ul>
                         </ul>
-                      </small><br><br>
-                      <h5 class="label label-info">Query</h5>
-                      <table class="table table-hover">
-                        <thead>
-                          <tr>
-                            <th>Key
-                            <th>Value
-                            <th>Description
-                        <tbody>
-                          <tr>
-                            <td>limit
-                            <td>1
-                            <td>
-                      </table><select class=resp-selector>
+                      </small><br><br><select class=resp-selector>
                         <option value>Select Example Request/Response
                         <option value=req_res_MuseumAPI_GetMuseums_0_GetMuseums>Get Museums
                       </select><br>
@@ -8806,6 +8800,1368 @@
             </div>
           </div>
         </div>
+        <div class="panel panel-default">
+          <div class=panel-heading>
+            <h3 class=panel-title id=DessertAPI>Dessert API
+              <span class=badge>4</span>
+            </h3>
+          </div>
+          <div class=panel-body>
+            <p>
+            <p>Here you will have a list of 66 national museums across the United States.
+            <p>It will supply you with museum profile that has:
+            <ul>
+              <li>Name
+              <li>Location
+              <li>Coordinates
+              <li>Type
+              <li>Category
+              <li>Photo
+              <li>Photo Attribute
+              <li>Website
+            </ul>
+            <p>Possible ideas for implementation:
+            <ul>
+              <li>Find your favorite national museum
+              <li>Create a google maps with locations around the United State Pins.
+            </ul>
+            <div class=request-item>
+              <div class=panel-group id=accordion-DessertAPI>
+                <div class="panel panel-info" id=jump-DessertAPI-GetDesserts>
+                  <div class=panel-heading><small class="pull-right text-muted"></small><a class=text-info
+                      data-toggle=collapse data-parent=#accordion-DessertAPI href=#collapse-DessertAPI-GetDesserts>
+                      <h4 class=panel-title><span class="glyphicon glyphicon-plus"></span><strong>Get Desserts</strong>
+                        &nbsp;|&nbsp;
+                        <strong class="request-method border-info">GET</strong>
+                        &nbsp;
+                        https://freerandomapi.herokuapp.com/api/v1/desserts
+                      </h4>
+                    </a></div>
+                  <div id=collapse-DessertAPI-GetDesserts class="panel-collapse collapse">
+                    <div class=panel-body>
+                      <h5 class="label label-default">Description</h5><br><small>
+                        <p><strong>Helpful tips!</strong>
+                        <ul>
+                          <li>If you call it as it stands it will provide you the first 25 desserts.
+                          <li>If you want to change the amount of 25, please put a query with the word
+                            &ldquo;limit&rdquo; like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts?limit=50">https://freerandomapi.herokuapp.com/api/v1/desserts?limit=50</a>
+                            </ul>
+                          <li>If you want to change what page you are on, please put a query with the word
+                            &ldquo;page&rdquo; like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts?page=12">https://freerandomapi.herokuapp.com/api/v1/desserts?page=12</a>
+                            </ul>
+                          <li>If you do not want all of the data provided for each profile, please put a query with the
+                            word select and add the keys you want. Like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts?select=name,category,createdAt">https://freerandomapi.herokuapp.com/api/v1/desserts?select=name,category,createdAt</a>
+                            </ul>
+                          <li>If you want to sort by a key (default: createdAt), please put a query with word
+                            &ldquo;sort&rdquo; like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts?sort=name">https://freerandomapi.herokuapp.com/api/v1/desserts?sort=name</a>
+                            </ul>
+                          <li>You can place multiple queries like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts?limit=30&amp;page=5&amp;select=name,category&amp;sort=name">https://freerandomapi.herokuapp.com/api/v1/deserts?limit=30&amp;page=5&amp;select=name,category&amp;sort=name</a>
+                            </ul>
+                        </ul>
+                      </small><br><br><select class=resp-selector>
+                        <option value>Select Example Request/Response
+                        <option value=req_res_DessertAPI_GetDesserts_0_GetDesserts>Get Desserts
+                      </select><br>
+                      <section id=req_res_DessertAPI_GetDesserts_0_GetDesserts style=display:none>
+                        <h4>Example Request</h4>
+                        <h5>URL: http://localhost:5000/api/v1/desserts</h5>
+                        <h4>Example Response</h4>
+                        <h5 class="label label-success">Body</h5><span class=resp-prettyprint>{
+                          &#34;success&#34;: true,
+                          &#34;count&#34;: 25,
+                          &#34;pagination&#34;: {
+                          &#34;total&#34;: 120,
+                          &#34;totalPages&#34;: 5,
+                          &#34;next&#34;: {
+                          &#34;page&#34;: 2,
+                          &#34;limit&#34;: 25
+                          }
+                          },
+                          &#34;data&#34;: [
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd72&#34;,
+                          &#34;name&#34;: &#34;Lofthouse cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/9/9b/2019-12-03_17_05_55_Two_Lofthouse_Holiday_Frosted_Sugar_Cookies_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Famartin, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd74&#34;,
+                          &#34;name&#34;: &#34;Mexican weeding cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;: &#34;https://live.staticflickr.com/5082/5371474378_0e82018c77_b.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/sliceofchic/5371474378&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd68&#34;,
+                          &#34;name&#34;: &#34;Peanut Butter Blossoms&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/3/32/Peanut_butter_blossoms_closeup.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Bryan Ochalla, CC BY-SA 2.0
+                          &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd60&#34;,
+                          &#34;name&#34;: &#34;Gingerbread cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://www.publicdomainpictures.net/pictures/150000/nahled/3-gingerbread-man-cookies.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd6a&#34;,
+                          &#34;name&#34;: &#34;Macaroons&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/4/48/Macaroons_in_Korea.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;SungMinSeung, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd66&#34;,
+                          &#34;name&#34;: &#34;Biscotti&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/7/75/Cantuccini-Toscani.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Gwang17-Blog: intoafoodcoma.wordpress.com, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd71&#34;,
+                          &#34;name&#34;: &#34;Icebox cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/8/89/Ice_Box_Bakery_cookies_%284714890352%29.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Elizabeth from Lansing, MI, USA, CC BY 2.0
+                          &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd61&#34;,
+                          &#34;name&#34;: &#34;Sugar cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Grannie_Gilbert%27s_Sugar_Cookies.jpg/800px-Grannie_Gilbert%27s_Sugar_Cookies.jpg?20200430002853&#34;,
+                          &#34;photoAttribute&#34;: &#34;AceDragonfly, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd77&#34;,
+                          &#34;name&#34;: &#34;Spritz cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/c/cd/Spritz_with_no_coloring.JPG&#34;,
+                          &#34;photoAttribute&#34;: &#34;MarkTraceur, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd63&#34;,
+                          &#34;name&#34;: &#34;Butter cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/e/e5/2019-11-29_14_52_43_The_interior_of_a_tin_of_McKenzie_%26_Lloyds_Danish_Style_Butter_Cookies_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Famartin, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd5f&#34;,
+                          &#34;name&#34;: &#34;Shortbread cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/9/9b/Shortbread_cookies_stacked_on_a_wire_rack.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://flickr.com/photos/27225909@N07/4178183002&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd6b&#34;,
+                          &#34;name&#34;: &#34;Butter Pecan Cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/f/f9/Butter_pecan_cookies.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Teresa Trimm, CC BY-SA 2.0
+                          &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd65&#34;,
+                          &#34;name&#34;: &#34;White chocolate macadamia nut cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/4/45/White_Chocolate_macadamia_nut_cookies_%283499207554%29.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Andie712b from Kailua, Hawaii, USA, CC BY 2.0
+                          &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd6f&#34;,
+                          &#34;name&#34;: &#34;Fortune Cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/d/d2/Fortune_cookies.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Ksayer1, CC BY-SA 2.0
+                          &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd62&#34;,
+                          &#34;name&#34;: &#34;Black and white cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Vegan_Black_and_White_Cookies_%288745832011%29.jpg/800px-Vegan_Black_and_White_Cookies_%288745832011%29.jpg?20140928062459&#34;,
+                          &#34;photoAttribute&#34;: &#34;Veganbaking.net from USA, CC BY-SA 2.0
+                          &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd70&#34;,
+                          &#34;name&#34;: &#34;Hamantaschen&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/2/2b/Homemade_hamantaschen_%28cropped%29.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Yoninah, CC BY-SA 3.0
+                          &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd67&#34;,
+                          &#34;name&#34;: &#34;Gingersnaps&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/2/2b/Round_gingersnaps.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Editor at Large, CC BY-SA 2.5
+                          &lt;https://creativecommons.org/licenses/by-sa/2.5&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd73&#34;,
+                          &#34;name&#34;: &#34;Meringue cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/4/49/Meringue_cookies.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Benjamin Ikuta, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd5d&#34;,
+                          &#34;name&#34;: &#34;Peanut butter cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/7/79/Peanut_Butter_Cookies_%284000565959%29.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/diekatrin/4000565959/&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd75&#34;,
+                          &#34;name&#34;: &#34;Rugelach&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/a/ac/ChocolateRugelach.JPG&#34;,
+                          &#34;photoAttribute&#34;: &#34;Yair rand, CC BY-SA 3.0
+                          &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd69&#34;,
+                          &#34;name&#34;: &#34;Macarons&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/c/cd/Macarons%2C_French_made_mini_cakes.JPG&#34;,
+                          &#34;photoAttribute&#34;: &#34;Nicolas Halftermeyer, CC BY-SA 3.0
+                          &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd5c&#34;,
+                          &#34;name&#34;: &#34;Chocolate chip&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;: &#34;https://live.staticflickr.com/3353/4643536339_040a11812c_b.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/kimberlykv/&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd5e&#34;,
+                          &#34;name&#34;: &#34;Oatmeal raisin cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/High_Fiber_Oatmeal_Raisin_Chocolate_Chip_Cookies_detail.jpg/1200px-High_Fiber_Oatmeal_Raisin_Chocolate_Chip_Cookies_detail.jpg?20100510164408&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/98178986@N00/4242343669&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd64&#34;,
+                          &#34;name&#34;: &#34;Snickerdoodle cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/a/ac/Pile_of_snickerdoodles.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;jim Winstead from los angeles, usa, CC BY 2.0
+                          &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd6d&#34;,
+                          &#34;name&#34;: &#34;Whoopie Pies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/4/4f/Whoopiepies1.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;MachineKeebler at the English Wikipedia, CC BY-SA 3.0
+                          &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          }
+                          ]
+                          }</span>
+                        <div class=clearfix></div>
+                        <h5 class="label label-info">Code:</h5><strong>200</strong>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-info" id=jump-DessertAPI-GetCookies>
+                  <div class=panel-heading><small class="pull-right text-muted"></small><a class=text-info
+                      data-toggle=collapse data-parent=#accordion-DessertAPI href=#collapse-DessertAPI-GetCookies>
+                      <h4 class=panel-title><span class="glyphicon glyphicon-plus"></span><strong>Get Cookies</strong>
+                        &nbsp;|&nbsp;
+                        <strong class="request-method border-info">GET</strong>
+                        &nbsp;
+                        https://freerandomapi.herokuapp.com/api/v1/desserts/Cookie
+                      </h4>
+                    </a></div>
+                  <div id=collapse-DessertAPI-GetCookies class="panel-collapse collapse">
+                    <div class=panel-body>
+                      <h5 class="label label-default">Description</h5><br><small>
+                        <p><strong>Helpful tips!</strong>
+                        <ul>
+                          <li>If you call it as it stands it will provide you the first 25 cookies.
+                          <li>If you want to change the amount of 25, please put a query with the word
+                            &ldquo;limit&rdquo; like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts/Cookie?limit=50">https://freerandomapi.herokuapp.com/api/v1/desserts/Cookie?limit=50</a>
+                            </ul>
+                          <li>If you want to change what page you are on, please put a query with the word
+                            &ldquo;page&rdquo; like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts/Cookie?page=12">https://freerandomapi.herokuapp.com/api/v1/desserts/Cookie?page=12</a>
+                            </ul>
+                          <li>If you do not want all of the data provided for each profile, please put a query with the
+                            word select and add the keys you want. Like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts/Cookie?select=name,category,createdAt">https://freerandomapi.herokuapp.com/api/v1/desserts/Cookie?select=name,category,createdAt</a>
+                            </ul>
+                          <li>If you want to sort by a key (default: createdAt), please put a query with word
+                            &ldquo;sort&rdquo; like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts/Cookie?sort=name">https://freerandomapi.herokuapp.com/api/v1/desserts/Cookie?sort=name</a>
+                            </ul>
+                          <li>You can place multiple queries like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/deserts/Cookie?limit=30&amp;page=5&amp;select=name,category&amp;sort=name">https://freerandomapi.herokuapp.com/api/v1/deserts/Cookie?limit=30&amp;page=5&amp;select=name,category&amp;sort=name</a>
+                            </ul>
+                        </ul>
+                      </small><br><br><select class=resp-selector>
+                        <option value>Select Example Request/Response
+                        <option value=req_res_DessertAPI_GetCookies_0_GetCookies>Get Cookies
+                      </select><br>
+                      <section id=req_res_DessertAPI_GetCookies_0_GetCookies style=display:none>
+                        <h4>Example Request</h4>
+                        <h5>URL: https://freerandomapi.herokuapp.com/api/v1/desserts/Cookie</h5>
+                        <h4>Example Response</h4>
+                        <h5 class="label label-success">Body</h5><span class=resp-prettyprint>{
+                          &#34;success&#34;: true,
+                          &#34;count&#34;: 25,
+                          &#34;pagination&#34;: {
+                          &#34;total&#34;: 50,
+                          &#34;totalPages&#34;: 2,
+                          &#34;next&#34;: {
+                          &#34;page&#34;: 2,
+                          &#34;limit&#34;: 25
+                          }
+                          },
+                          &#34;data&#34;: [
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd5c&#34;,
+                          &#34;name&#34;: &#34;Chocolate chip&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;: &#34;https://live.staticflickr.com/3353/4643536339_040a11812c_b.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/kimberlykv/&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd5d&#34;,
+                          &#34;name&#34;: &#34;Peanut butter cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/7/79/Peanut_Butter_Cookies_%284000565959%29.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/diekatrin/4000565959/&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd5e&#34;,
+                          &#34;name&#34;: &#34;Oatmeal raisin cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/High_Fiber_Oatmeal_Raisin_Chocolate_Chip_Cookies_detail.jpg/1200px-High_Fiber_Oatmeal_Raisin_Chocolate_Chip_Cookies_detail.jpg?20100510164408&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/98178986@N00/4242343669&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd62&#34;,
+                          &#34;name&#34;: &#34;Black and white cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Vegan_Black_and_White_Cookies_%288745832011%29.jpg/800px-Vegan_Black_and_White_Cookies_%288745832011%29.jpg?20140928062459&#34;,
+                          &#34;photoAttribute&#34;: &#34;Veganbaking.net from USA, CC BY-SA 2.0
+                          &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd61&#34;,
+                          &#34;name&#34;: &#34;Sugar cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Grannie_Gilbert%27s_Sugar_Cookies.jpg/800px-Grannie_Gilbert%27s_Sugar_Cookies.jpg?20200430002853&#34;,
+                          &#34;photoAttribute&#34;: &#34;AceDragonfly, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd63&#34;,
+                          &#34;name&#34;: &#34;Butter cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/e/e5/2019-11-29_14_52_43_The_interior_of_a_tin_of_McKenzie_%26_Lloyds_Danish_Style_Butter_Cookies_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Famartin, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd64&#34;,
+                          &#34;name&#34;: &#34;Snickerdoodle cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/a/ac/Pile_of_snickerdoodles.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;jim Winstead from los angeles, usa, CC BY 2.0
+                          &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd65&#34;,
+                          &#34;name&#34;: &#34;White chocolate macadamia nut cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/4/45/White_Chocolate_macadamia_nut_cookies_%283499207554%29.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Andie712b from Kailua, Hawaii, USA, CC BY 2.0
+                          &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd66&#34;,
+                          &#34;name&#34;: &#34;Biscotti&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/7/75/Cantuccini-Toscani.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Gwang17-Blog: intoafoodcoma.wordpress.com, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd67&#34;,
+                          &#34;name&#34;: &#34;Gingersnaps&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/2/2b/Round_gingersnaps.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Editor at Large, CC BY-SA 2.5
+                          &lt;https://creativecommons.org/licenses/by-sa/2.5&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd68&#34;,
+                          &#34;name&#34;: &#34;Peanut Butter Blossoms&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/3/32/Peanut_butter_blossoms_closeup.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Bryan Ochalla, CC BY-SA 2.0
+                          &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd69&#34;,
+                          &#34;name&#34;: &#34;Macarons&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/c/cd/Macarons%2C_French_made_mini_cakes.JPG&#34;,
+                          &#34;photoAttribute&#34;: &#34;Nicolas Halftermeyer, CC BY-SA 3.0
+                          &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd6a&#34;,
+                          &#34;name&#34;: &#34;Macaroons&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/4/48/Macaroons_in_Korea.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;SungMinSeung, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd6b&#34;,
+                          &#34;name&#34;: &#34;Butter Pecan Cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/f/f9/Butter_pecan_cookies.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Teresa Trimm, CC BY-SA 2.0
+                          &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd6d&#34;,
+                          &#34;name&#34;: &#34;Whoopie Pies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/4/4f/Whoopiepies1.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;MachineKeebler at the English Wikipedia, CC BY-SA 3.0
+                          &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd5f&#34;,
+                          &#34;name&#34;: &#34;Shortbread cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/9/9b/Shortbread_cookies_stacked_on_a_wire_rack.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://flickr.com/photos/27225909@N07/4178183002&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd60&#34;,
+                          &#34;name&#34;: &#34;Gingerbread cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://www.publicdomainpictures.net/pictures/150000/nahled/3-gingerbread-man-cookies.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd6f&#34;,
+                          &#34;name&#34;: &#34;Fortune Cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/d/d2/Fortune_cookies.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Ksayer1, CC BY-SA 2.0
+                          &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd72&#34;,
+                          &#34;name&#34;: &#34;Lofthouse cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/9/9b/2019-12-03_17_05_55_Two_Lofthouse_Holiday_Frosted_Sugar_Cookies_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Famartin, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd70&#34;,
+                          &#34;name&#34;: &#34;Hamantaschen&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/2/2b/Homemade_hamantaschen_%28cropped%29.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Yoninah, CC BY-SA 3.0
+                          &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd71&#34;,
+                          &#34;name&#34;: &#34;Icebox cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/8/89/Ice_Box_Bakery_cookies_%284714890352%29.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Elizabeth from Lansing, MI, USA, CC BY 2.0
+                          &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd73&#34;,
+                          &#34;name&#34;: &#34;Meringue cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/4/49/Meringue_cookies.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Benjamin Ikuta, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd74&#34;,
+                          &#34;name&#34;: &#34;Mexican weeding cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;: &#34;https://live.staticflickr.com/5082/5371474378_0e82018c77_b.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/sliceofchic/5371474378&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd75&#34;,
+                          &#34;name&#34;: &#34;Rugelach&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/a/ac/ChocolateRugelach.JPG&#34;,
+                          &#34;photoAttribute&#34;: &#34;Yair rand, CC BY-SA 3.0
+                          &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd77&#34;,
+                          &#34;name&#34;: &#34;Spritz cookies&#34;,
+                          &#34;category&#34;: &#34;Cookie&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/c/cd/Spritz_with_no_coloring.JPG&#34;,
+                          &#34;photoAttribute&#34;: &#34;MarkTraceur, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          }
+                          ]
+                          }</span>
+                        <div class=clearfix></div>
+                        <h5 class="label label-info">Code:</h5><strong>200</strong>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-info" id=jump-DessertAPI-GetDonuts>
+                  <div class=panel-heading><small class="pull-right text-muted"></small><a class=text-info
+                      data-toggle=collapse data-parent=#accordion-DessertAPI href=#collapse-DessertAPI-GetDonuts>
+                      <h4 class=panel-title><span class="glyphicon glyphicon-plus"></span><strong>Get Donuts</strong>
+                        &nbsp;|&nbsp;
+                        <strong class="request-method border-info">GET</strong>
+                        &nbsp;
+                        https://freerandomapi.herokuapp.com/api/v1/desserts/Donut
+                      </h4>
+                    </a></div>
+                  <div id=collapse-DessertAPI-GetDonuts class="panel-collapse collapse">
+                    <div class=panel-body>
+                      <h5 class="label label-default">Description</h5><br><small>
+                        <p><strong>Helpful tips!</strong>
+                        <ul>
+                          <li>If you call it as it stands it will provide you the first 25 donuts.
+                          <li>If you want to change the amount of 25, please put a query with the word
+                            &ldquo;limit&rdquo; like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts/Donut?limit=50">https://freerandomapi.herokuapp.com/api/v1/desserts/Donut?limit=50</a>
+                            </ul>
+                          <li>If you want to change what page you are on, please put a query with the word
+                            &ldquo;page&rdquo; like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts/Donut?page=12">https://freerandomapi.herokuapp.com/api/v1/desserts/Donut?page=12</a>
+                            </ul>
+                          <li>If you do not want all of the data provided for each profile, please put a query with the
+                            word select and add the keys you want. Like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts/Donut?select=name,category,createdAt">https://freerandomapi.herokuapp.com/api/v1/desserts/Donut?select=name,category,createdAt</a>
+                            </ul>
+                          <li>If you want to sort by a key (default: createdAt), please put a query with word
+                            &ldquo;sort&rdquo; like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts/Donut?sort=name">https://freerandomapi.herokuapp.com/api/v1/desserts/Donut?sort=name</a>
+                            </ul>
+                          <li>You can place multiple queries like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts/Donut?limit=30&amp;page=5&amp;select=name,category&amp;sort=name">https://freerandomapi.herokuapp.com/api/v1/desserts/Donut?limit=30&amp;page=5&amp;select=name,category&amp;sort=name</a>
+                            </ul>
+                        </ul>
+                      </small><br><br><select class=resp-selector>
+                        <option value>Select Example Request/Response
+                        <option value=req_res_DessertAPI_GetDonuts_0_GetDonuts>Get Donuts
+                      </select><br>
+                      <section id=req_res_DessertAPI_GetDonuts_0_GetDonuts style=display:none>
+                        <h4>Example Request</h4>
+                        <h5>URL: https://freerandomapi.herokuapp.com/api/v1/desserts/Donut</h5>
+                        <h4>Example Response</h4>
+                        <h5 class="label label-success">Body</h5><span class=resp-prettyprint>{
+                          &#34;success&#34;: true,
+                          &#34;count&#34;: 25,
+                          &#34;pagination&#34;: {
+                          &#34;total&#34;: 40,
+                          &#34;totalPages&#34;: 2,
+                          &#34;next&#34;: {
+                          &#34;page&#34;: 2,
+                          &#34;limit&#34;: 25
+                          }
+                          },
+                          &#34;data&#34;: [
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd8e&#34;,
+                          &#34;name&#34;: &#34;Glazed Donuts&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/3/30/Krispy_Kreme_glazed_donuts_2.JPG&#34;,
+                          &#34;photoAttribute&#34;: &#34;BrokenSphere, CC BY-SA 3.0
+                          &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd90&#34;,
+                          &#34;name&#34;: &#34;Sour Cream Donut&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/5/5e/Sour_cream_glazed%2C2011-11-28.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Pbj2199, CC BY-SA 3.0
+                          &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd8f&#34;,
+                          &#34;name&#34;: &#34;Boston Cream Donut&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/7/70/DD-Boston-Cream-Donut.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Evan-Amos, CC BY-SA 3.0
+                          &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd91&#34;,
+                          &#34;name&#34;: &#34;Cronuts&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/8/8b/April_2016_Cronut%C2%AE_2_Burnt_Vanilla_Caramel_-_photo_by_Dominique_Ansel_Bakery.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Jc2084, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd92&#34;,
+                          &#34;name&#34;: &#34;Picarones&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Peru_Picarones.jpg/800px-Peru_Picarones.jpg?20050131215631&#34;,
+                          &#34;photoAttribute&#34;:
+                          &#34;https://commons.wikimedia.org/wiki/File:Peru_Picarones.jpg&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd93&#34;,
+                          &#34;name&#34;: &#34;Sonhos&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/d/d3/Sonhos_de_Natal.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Adriao, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd94&#34;,
+                          &#34;name&#34;: &#34;Churros&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/d/d3/Sonhos_de_Natal.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Adriao, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd95&#34;,
+                          &#34;name&#34;: &#34;Rosquillas &#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/b/b3/Rosquillas.JPG&#34;,
+                          &#34;photoAttribute&#34;: &#34;Tamorlan, CC BY-SA 2.5
+                          &lt;https://creativecommons.org/licenses/by-sa/2.5&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd96&#34;,
+                          &#34;name&#34;: &#34;Malasadas&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;: &#34;https://live.staticflickr.com/4113/5034614760_00215b3003_b.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/fuzzy/5034614760&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd97&#34;,
+                          &#34;name&#34;: &#34;Zeppole&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/e/ee/American-made_zeppole.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;GrammarFascist, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd98&#34;,
+                          &#34;name&#34;: &#34;Bomboloni&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/2/2c/Bomboloni.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Photo by Flickr user nromagna (Gianna Nannini ?), CC BY 2.0
+                          &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd99&#34;,
+                          &#34;name&#34;: &#34;Beignet &#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/9/9d/Beignets_and_Caf%C3%A9_au_Lait_at_Caf%C3%A9_du_Monde%2C_New_Orleans.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Pburka, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd9a&#34;,
+                          &#34;name&#34;: &#34;Berliner&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/7/7f/Berliner_Pfannkuchen_1.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Sebastian Koppehel, CC BY 4.0
+                          &lt;https://creativecommons.org/licenses/by/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd9c&#34;,
+                          &#34;name&#34;: &#34;Loukoumades&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/0/08/Loukoumades.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Flickr.com user \&#34;avlxyz\&#34;, CC BY-SA 2.0
+                          &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd9b&#34;,
+                          &#34;name&#34;: &#34;Oliebollen&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/3/34/Oliebollen_2.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Michelle_Boon, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd9d&#34;,
+                          &#34;name&#34;: &#34;Krafne&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/2/2c/Pokladnice_Kri%C5%BEevci_2008.JPG&#34;,
+                          &#34;photoAttribute&#34;: &#34;SpeedyGonsales, CC BY-SA 3.0
+                          &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd9e&#34;,
+                          &#34;name&#34;: &#34;Farsangi Fank&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;: &#34;https://live.staticflickr.com/3516/3306154353_f851f05cb5_b.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/debreczeniemoke/3306154353&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbd9f&#34;,
+                          &#34;name&#34;: &#34;Spurgos&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/0/0a/Var%C5%A1kin%C4%97s_spurgos.JPG&#34;,
+                          &#34;photoAttribute&#34;: &#34;Bearas, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbda0&#34;,
+                          &#34;name&#34;: &#34;Paczki&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/3/37/Polish_p%C4%85czki_%281%29.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;MichalPL, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbda5&#34;,
+                          &#34;name&#34;: &#34;Mochi&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/4/4f/Mochi_Donut.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Snoice, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbda2&#34;,
+                          &#34;name&#34;: &#34;Pampushky&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/3/3e/Pampushky.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Kagor at the Ukrainian language Wikipedia, CC BY-SA 3.0
+                          &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbda4&#34;,
+                          &#34;name&#34;: &#34;Sata Andagi&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;: &#34;https://live.staticflickr.com/8361/8322304131_fe51792a55_b.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/jpellgen/8322304131&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbda3&#34;,
+                          &#34;name&#34;: &#34;Matcha&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;: &#34;https://live.staticflickr.com/4074/4899662553_fd5b59fd17_b.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/donutgirl/4899662553&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbda7&#34;,
+                          &#34;name&#34;: &#34;Sushi Donuts&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://d1ralsognjng37.cloudfront.net/8cd32b02-4ac3-414f-9e91-522aa4adaa45.webp&#34;,
+                          &#34;photoAttribute&#34;: &#34;&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbda1&#34;,
+                          &#34;name&#34;: &#34;Ponchiki&#34;,
+                          &#34;category&#34;: &#34;Donuts&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/f/f5/Ponchiki_on_a_plate.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Misharim, CC BY 4.0
+                          &lt;https://creativecommons.org/licenses/by/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          }
+                          ]
+                          }</span>
+                        <div class=clearfix></div>
+                        <h5 class="label label-info">Code:</h5><strong>200</strong>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+                <div class="panel panel-info" id=jump-DessertAPI-GetIceCream>
+                  <div class=panel-heading><small class="pull-right text-muted"></small><a class=text-info
+                      data-toggle=collapse data-parent=#accordion-DessertAPI href=#collapse-DessertAPI-GetIceCream>
+                      <h4 class=panel-title><span class="glyphicon glyphicon-plus"></span><strong>Get Ice Cream</strong>
+                        &nbsp;|&nbsp;
+                        <strong class="request-method border-info">GET</strong>
+                        &nbsp;
+                        https://freerandomapi.herokuapp.com/api/v1/desserts/Ice_Cream
+                      </h4>
+                    </a></div>
+                  <div id=collapse-DessertAPI-GetIceCream class="panel-collapse collapse">
+                    <div class=panel-body>
+                      <h5 class="label label-default">Description</h5><br><small>
+                        <p><strong>Helpful tips!</strong>
+                        <ul>
+                          <li>If you call it as it stands it will provide you the first 25 ice creams.
+                          <li>If you want to change the amount of 25, please put a query with the word
+                            &ldquo;limit&rdquo; like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts/Ice_Cream?limit=50">https://freerandomapi.herokuapp.com/api/v1/desserts/Ice_Cream?limit=50</a>
+                            </ul>
+                          <li>If you want to change what page you are on, please put a query with the word
+                            &ldquo;page&rdquo; like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts/Ice_Cream?page=12">https://freerandomapi.herokuapp.com/api/v1/desserts/Ice_Cream?page=12</a>
+                            </ul>
+                          <li>If you do not want all of the data provided for each profile, please put a query with the
+                            word select and add the keys you want. Like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts/Ice_Cream?select=name,category,createdAt">https://freerandomapi.herokuapp.com/api/v1/desserts/Ice_Cream?select=name,category,createdAt</a>
+                            </ul>
+                          <li>If you want to sort by a key (default: createdAt), please put a query with word
+                            &ldquo;sort&rdquo; like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts/Ice_Cream?sort=name">https://freerandomapi.herokuapp.com/api/v1/desserts/Ice_Cream?sort=name</a>
+                            </ul>
+                          <li>You can place multiple queries like this:<ul>
+                              <li><a
+                                  href="https://freerandomapi.herokuapp.com/api/v1/desserts/Ice_Cream?limit=5&amp;page=5&amp;select=name,category&amp;sort=name">https://freerandomapi.herokuapp.com/api/v1/desserts/Ice_Cream?limit=5&amp;page=5&amp;select=name,category&amp;sort=name</a>
+                            </ul>
+                        </ul>
+                      </small><br><br><select class=resp-selector>
+                        <option value>Select Example Request/Response
+                        <option value=req_res_DessertAPI_GetIceCream_0_GetIceCream>Get Ice Cream
+                      </select><br>
+                      <section id=req_res_DessertAPI_GetIceCream_0_GetIceCream style=display:none>
+                        <h4>Example Request</h4>
+                        <h5>URL: https://freerandomapi.herokuapp.com/api/v1/desserts/Ice_Cream</h5>
+                        <h4>Example Response</h4>
+                        <h5 class="label label-success">Body</h5><span class=resp-prettyprint>{
+                          &#34;success&#34;: true,
+                          &#34;count&#34;: 25,
+                          &#34;pagination&#34;: {
+                          &#34;total&#34;: 30,
+                          &#34;totalPages&#34;: 2,
+                          &#34;next&#34;: {
+                          &#34;page&#34;: 2,
+                          &#34;limit&#34;: 25
+                          }
+                          },
+                          &#34;data&#34;: [
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdb6&#34;,
+                          &#34;name&#34;: &#34;Vanilla&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/f/f3/Vanilla_Ice_Cream_Cone_at_Camp_Manitoulin.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Steven Depolo, CC BY 2.0
+                          &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdb7&#34;,
+                          &#34;name&#34;: &#34;Chocolate&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/f/ff/2018-03-04_17_55_48_Large_serving_of_chocolate_soft-serve_ice_cream_at_the_Carvel_off_of_Denow_Road_in_Hopewell_Township%2C_Mercer_County%2C_New_Jersey.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Famartin, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdb8&#34;,
+                          &#34;name&#34;: &#34;Chocolate Chip&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;: &#34;https://live.staticflickr.com/4145/5033870639_c70a816b00.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/54397539@N06/5033870639&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdba&#34;,
+                          &#34;name&#34;: &#34;Chocolate Chip Cookie Dough&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/7/70/Chocolate_chip_cookie_dough_ice_cream_with_orange_spoon.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;pamramsey, CC BY-SA 2.0
+                          &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdb9&#34;,
+                          &#34;name&#34;: &#34;Butter Pecan&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/e/ed/Butter_pecan_caramel_ice_cream.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;kochtopf, CC BY 2.0
+                          &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdbb&#34;,
+                          &#34;name&#34;: &#34;Eggnog&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;: &#34;https://live.staticflickr.com/3689/11506095255_05c86b933a_z.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/kridgway/11506095255&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdbd&#34;,
+                          &#34;name&#34;: &#34;Strawberry&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/d/da/Strawberry_ice_cream_cone_%285076899310%29.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;TheCulinaryGeek from Chicago, USA, CC BY 2.0
+                          &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdbe&#34;,
+                          &#34;name&#34;: &#34;Horchata&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;: &#34;https://live.staticflickr.com/3886/14373555935_56415a885b_b.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/thomashawk/14373555935&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdbf&#34;,
+                          &#34;name&#34;: &#34;Lemon Custard&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;: &#34;https://live.staticflickr.com/4140/4808582485_1d01e1eee2_b.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/notahipster/4808582485&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdc0&#34;,
+                          &#34;name&#34;: &#34;Cookies ‘N Cream&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/0/02/Udders_Cookies_and_Cream_Ice_Cream.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Carmenwongjw, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdc2&#34;,
+                          &#34;name&#34;: &#34;Moose Tracks&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;: &#34;https://live.staticflickr.com/4035/4482898467_c6c5e0bdf4_b.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/ginnerobot/4482898467&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdc3&#34;,
+                          &#34;name&#34;: &#34;Neapolitan&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/4/43/Neapolitan.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;No machine-readable author provided. Pschemp assumed (based on
+                          copyright claims)., CC BY-SA 3.0 &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via
+                          Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdc4&#34;,
+                          &#34;name&#34;: &#34;Cotton Candy&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;: &#34;https://live.staticflickr.com/8291/7705324222_c61d866d38_z.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/davidberkowitz/7705324222&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdc6&#34;,
+                          &#34;name&#34;: &#34;German Chocolate Cake&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;: &#34;https://live.staticflickr.com/4011/4679606588_5a33895224_b.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/kimberlykv/4679606588&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdc5&#34;,
+                          &#34;name&#34;: &#34;Butterscotch&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/b/be/ButterScotch-Waffle-IceCream_Scoop.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;IdeasCoach, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdc9&#34;,
+                          &#34;name&#34;: &#34;Ube&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://www.publicdomainpictures.net/pictures/90000/velka/ube-ice-cream.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdc8&#34;,
+                          &#34;name&#34;: &#34;Teaberry&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;: &#34;http://www.icecreampark.com/img/teaberry-1.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;http://www.icecreampark.com/teaberry-icecream.html&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdc7&#34;,
+                          &#34;name&#34;: &#34;Matcha&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/a/a7/Matcha_ice_cream_shiratama.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Japanit matcha, CC BY-SA 4.0
+                          &lt;https://creativecommons.org/licenses/by-sa/4.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdca&#34;,
+                          &#34;name&#34;: &#34;Reese’s Peanut Butter Cup&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;: &#34;https://live.staticflickr.com/4135/4760606471_b8f3727b7e_z.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/27129991@N03/4760606471&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdcb&#34;,
+                          &#34;name&#34;: &#34;Cherry Garcia&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/4/4b/Cherry_garcia.JPG&#34;,
+                          &#34;photoAttribute&#34;: &#34;Don.chulio, CC BY-SA 3.0
+                          &lt;http://creativecommons.org/licenses/by-sa/3.0/&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdcc&#34;,
+                          &#34;name&#34;: &#34;Rocky Road&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/1/1c/Rockyroadicecream.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;stu_spivack, CC BY-SA 2.0
+                          &lt;https://creativecommons.org/licenses/by-sa/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdcd&#34;,
+                          &#34;name&#34;: &#34;Peanut Butter and Jelly&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://www.kleinworthco.com/wp-content/uploads/2014/08/20140808_26-copy-web-950.jpg&#34;,
+                          &#34;photoAttribute&#34;:
+                          &#34;https://www.kleinworthco.com/peanut-butter-jelly-ice-cream/&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdce&#34;,
+                          &#34;name&#34;: &#34;Mango&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/b/b7/Mango_Ice_cream_at_Molave_Milk_Station.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;George Parrilla, CC BY 2.0
+                          &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdd1&#34;,
+                          &#34;name&#34;: &#34;Salted Caramel&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;: &#34;https://live.staticflickr.com/1464/26314112816_2df96c2d2e_b.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;https://www.flickr.com/photos/68147320@N02/26314112816&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          },
+                          {
+                          &#34;_id&#34;: &#34;6303a5bdb9044eb877afbdd2&#34;,
+                          &#34;name&#34;: &#34;Superman&#34;,
+                          &#34;category&#34;: &#34;Ice_Cream&#34;,
+                          &#34;photoUrl&#34;:
+                          &#34;https://upload.wikimedia.org/wikipedia/commons/8/82/Ice_cream_dish_-_superman_flavor.jpg&#34;,
+                          &#34;photoAttribute&#34;: &#34;Carl Lender, CC BY 2.0
+                          &lt;https://creativecommons.org/licenses/by/2.0&gt;, via Wikimedia Commons&#34;,
+                          &#34;createdAt&#34;: &#34;2022-08-22T15:50:21.042Z&#34;,
+                          &#34;__v&#34;: 0
+                          }
+                          ]
+                          }</span>
+                        <div class=clearfix></div>
+                        <h5 class="label label-info">Code:</h5><strong>200</strong>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -8831,7 +10187,7 @@
     <div class=container-fluid>
       <div class="span12 text-center"><span data-toggle=tooltip
           title="If the application help you, please feel free to give a star to the project in github. Your star inspire me to work more on open-source projects like this!">Generated
-          at 2022-07-26 16:54:38 by <a href=https://github.com/thedevsaddam/docgen target=_blank
+          at 2022-08-22 14:58:17 by <a href=https://github.com/thedevsaddam/docgen target=_blank
             class=text-muted>docgen</a></span></div>
     </div>
   </footer>

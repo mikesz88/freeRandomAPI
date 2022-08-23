@@ -1,0 +1,842 @@
+[
+  {
+    "name": "Chocolate chip",
+    "category": "Cookie",
+    "photoUrl": "https://live.staticflickr.com/3353/4643536339_040a11812c_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/kimberlykv/",
+    "description": "Chocolate Chip Cookies are a classic American dessert. Chocolate chips are added to plain butter cookies and baked until they become crispy and brown. These delicious treats are perfect for any occasion!"
+  },
+  {
+    "name": "Peanut butter cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/79/Peanut_Butter_Cookies_%284000565959%29.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/diekatrin/4000565959/",
+    "description": "Peanut Butter Cookies are delicious treats that have been around since the early 1900's. Peanut Butter Cookie recipes vary widely depending on what type of cookie dough recipe you use. There are many different types of cookies that are made using peanut butter including chocolate chip, oatmeal raisin, sugar-free, and even vegan versions."
+  },
+  {
+    "name": "Oatmeal raisin cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/High_Fiber_Oatmeal_Raisin_Chocolate_Chip_Cookies_detail.jpg/1200px-High_Fiber_Oatmeal_Raisin_Chocolate_Chip_Cookies_detail.jpg?20100510164408",
+    "photoAttribute": "https://www.flickr.com/photos/98178986@N00/4242343669",
+    "description": "This cookie is made with walnuts and they are moist and delicious. The walnut flavor is what makes this cookie so good. Everyone who loves raisony cookies will love this recipe."
+  },
+  {
+    "name": "Shortbread cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Shortbread_cookies_stacked_on_a_wire_rack.jpg",
+    "photoAttribute": "https://flickr.com/photos/27225909@N07/4178183002",
+    "description": "These shortbread cookies are a little crunchy and a little crumbly, but they have just the right amount of sweetness to keep you coming back for more. The taste is like that of a buttery graham cracker, but with a bit of vanilla and cinnamon to make them extra special."
+  },
+  {
+    "name": "Gingerbread cookies",
+    "category": "Cookie",
+    "photoUrl": "https://www.publicdomainpictures.net/pictures/150000/nahled/3-gingerbread-man-cookies.jpg",
+    "photoAttribute": "",
+    "description": "The taste of a gingerbread cookie is warm, sweet, and just a little spicy. It's not too hard or too soft—it's just right. The flavor is subtle enough that you can enjoy it any time of year, but festive enough to make you feel like Christmas has come early."
+  },
+  {
+    "name": "Sugar cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Grannie_Gilbert%27s_Sugar_Cookies.jpg/800px-Grannie_Gilbert%27s_Sugar_Cookies.jpg?20200430002853",
+    "photoAttribute": "AceDragonfly, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Our sugar cookies are sweet and delicious, with a hint of vanilla. They're the perfect snacking cookie!"
+  },
+  {
+    "name": "Black and white cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Vegan_Black_and_White_Cookies_%288745832011%29.jpg/800px-Vegan_Black_and_White_Cookies_%288745832011%29.jpg?20140928062459",
+    "photoAttribute": "Veganbaking.net from USA, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "The taste of this black-and-white cookie is best described as something you've never tasted before. It's a delicious combination of chocolate and vanilla, but with a twist—the vanilla is actually a surprise!"
+  },
+  {
+    "name": "Butter cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e5/2019-11-29_14_52_43_The_interior_of_a_tin_of_McKenzie_%26_Lloyds_Danish_Style_Butter_Cookies_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg",
+    "photoAttribute": "Famartin, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "I would describe the taste of these cookies as buttery, sugary and delicious. They have a nice, soft texture and are very sweet."
+  },
+  {
+    "name": "Snickerdoodle cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Pile_of_snickerdoodles.jpg",
+    "photoAttribute": "jim Winstead from los angeles, usa, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Snickerdoodle cookies are like the best cinnamon roll, but in a handheld form. They're soft and chewy and warm, with just the right amount of spice to make you feel cozy. And when you bite into them, they're literally like eating a cloud."
+  },
+  {
+    "name": "White chocolate macadamia nut cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/45/White_Chocolate_macadamia_nut_cookies_%283499207554%29.jpg",
+    "photoAttribute": "Andie712b from Kailua, Hawaii, USA, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Everyone loves white chocolate macadamia nut cookies. They're sweet and chewy, with a little bit of crunch on the outside. They can be dipped them in milk and have the white chocolate chips melt on the tongue."
+  },
+  {
+    "name": "Biscotti",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/75/Cantuccini-Toscani.jpg",
+    "photoAttribute": "Gwang17-Blog: intoafoodcoma.wordpress.com, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Our biscotti is a crunchy, buttery delight. The taste is similar to that of a cookie, but it has the added crunch of almonds and coconut. You can really feel the texture when you bite into one, which makes it a great snack food!"
+  },
+  {
+    "name": "Gingersnaps",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Round_gingersnaps.jpg",
+    "photoAttribute": "Editor at Large, CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5>, via Wikimedia Commons",
+    "description": "The taste of gingersnaps is like a nostalgic memory you can't quite place, but it's warm and sweet and makes you feel good. It tastes like home."
+  },
+  {
+    "name": "Peanut Butter Blossoms",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/32/Peanut_butter_blossoms_closeup.jpg",
+    "photoAttribute": "Bryan Ochalla, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "The peanut butter blossoms are a delicious treat that's great for any time of day. They're crunchy, but not too crunchy, and they have just enough sweetness to make you want to keep going back for more. The peanut butter filling is rich and creamy, with just the right amount of saltiness to balance out the sweetness."
+  },
+  {
+    "name": "Macarons",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Macarons%2C_French_made_mini_cakes.JPG",
+    "photoAttribute": "Nicolas Halftermeyer, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "The macarons are a little bit crunchy and have a light, airy texture that melts in your mouth. The flavor is subtle and light, with no overpowering sweetness or saltiness. It has a nice balance of flavors that makes it just perfect for snacking on!"
+  },
+  {
+    "name": "Macaroons",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/48/Macaroons_in_Korea.jpg",
+    "photoAttribute": "SungMinSeung, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "These macaroons are like the love child of chocolate chip and coconut. They're sweet, but not too sweet, and they have just enough salt to make them interesting. They're chewy, but also soft—and if you try one with a cup of coffee or tea, you'll see why these are so addictive!"
+  },
+  {
+    "name": "Butter Pecan Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Butter_pecan_cookies.jpg",
+    "photoAttribute": "Teresa Trimm, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "Butter pecan cookies are buttery, crunchy, and nutty. They're the perfect balance of salty and sweet, with a subtle aftertaste of vanilla. The dough is tender and soft, but once you bite into them you get that satisfying crunch of pecans."
+  },
+  {
+    "name": "Crinkle Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Chocolate_Crinkles.jpg",
+    "photoAttribute": "John V. Pozniak, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Chocolate crinkles cookies are the perfect blend of crunchy and soft, with a subtle sweetness that adds just enough flavor without overwhelming your taste buds."
+  },
+  {
+    "name": "Whoopie Pies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Whoopiepies1.jpg",
+    "photoAttribute": "MachineKeebler at the English Wikipedia, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons",
+    "description": "They're like a big, soft cookie sandwich. The filling is rich and creamy and the cake of the cookie is soft and buttery."
+  },
+  {
+    "name": "Molasses Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/74/Molasses-Cookies-2006March09.JPG",
+    "photoAttribute": "No machine-readable author provided. Naib assumed (based on copyright claims)., CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5>, via Wikimedia Commons",
+    "description": "Molassess cookies are soft, chewy, and delicious. They have a caramel-like flavor that's enhanced by the slight bitterness of the molasses."
+  },
+  {
+    "name": "Fortune Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Fortune_cookies.jpg",
+    "photoAttribute": "Ksayer1, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "The taste of the cookie is like a warm hug. It's sweet, but not too sweet; it has a little bit of crunch, but not too much. The cookie is also just the right size and shape to fit in your hand and make you feel better when you're feeling down, or to give an extra boost of energy when you need one!"
+  },
+  {
+    "name": "Hamantaschen",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Homemade_hamantaschen_%28cropped%29.jpg",
+    "photoAttribute": "Yoninah, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons",
+    "description": "The taste of hamantaschen is like a cross between a chocolate chip cookie and a shortbread cookie. It's a little crispy on the outside, but chewy on the inside. If you love chocolate, you'll probably love it. If you're not a huge fan of chocolate, but still want something sweet to eat with your coffee or tea in the morning, this is definitely the cookie for you!"
+  },
+  {
+    "name": "Icebox cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/89/Ice_Box_Bakery_cookies_%284714890352%29.jpg",
+    "photoAttribute": "Elizabeth from Lansing, MI, USA, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Our cookies are delicious and delightful! They have a crisp exterior and a soft, chewy center. They're made with all natural ingredients, so you can feel good about eating them."
+  },
+  {
+    "name": "Lofthouse cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/2019-12-03_17_05_55_Two_Lofthouse_Holiday_Frosted_Sugar_Cookies_in_the_Dulles_section_of_Sterling%2C_Loudoun_County%2C_Virginia.jpg",
+    "photoAttribute": "Famartin, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Lofthouse cookies are light and fluffy, with a hint of vanilla and cinnamon. They're the perfect treat to have on hand when you want something sweet but need a quick snack."
+  },
+  {
+    "name": "Meringue cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/49/Meringue_cookies.jpg",
+    "photoAttribute": "Benjamin Ikuta, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "These cookies are light and airy, just like a meringue! They have a subtle sweetness with a hint of lemon."
+  },
+  {
+    "name": "Mexican weeding cookies",
+    "category": "Cookie",
+    "photoUrl": "https://live.staticflickr.com/5082/5371474378_0e82018c77_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/sliceofchic/5371474378",
+    "description": "Mexican wedding cookies are a sweet treat that tastes like a cross between a shortbread cookie and a flan. They're made with cornstarch, which gives them the texture of shortbread, while their flavor is more akin to flan. The most common way to eat them is topped with powdered sugar or drizzled with honey, but you can also serve them plain or try experimenting with different toppings!"
+  },
+  {
+    "name": "Rugelach",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/ac/ChocolateRugelach.JPG",
+    "photoAttribute": "Yair rand, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "The taste of a rugelach is a little bit cinnamon, a little bit chocolate, and a whole lot of good."
+  },
+  {
+    "name": "Snowball cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Bashkir_qurut.png",
+    "photoAttribute": "Haqmar, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "The taste of a snowball cookie is like a delicate blend of vanilla, chocolate, and marshmallow. It's not too sweet, so the flavor isn't overpowering. The texture is light, but it still feels like it will stick to your teeth. It's just the right amount of chewy."
+  },
+  {
+    "name": "Spritz cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Spritz_with_no_coloring.JPG",
+    "photoAttribute": "MarkTraceur, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Spritz cookies are a classic Italian cookie. They're made with almond flour and egg whites, so they're low-calorie, but they taste like you're eating a cookie straight out of your grandmother's kitchen. They have a light, sweet flavor that tastes like vanilla and almond, but with a hint of lemon zest."
+  },
+  {
+    "name": "Thumbprint cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Thumbprint_cookies_before_baking%2C_September_2009.jpg",
+    "photoAttribute": "Ginny, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "These cookies are like the best parts of a chocolate chip cookie and a snickerdoodle combined into one. They're soft, sweet, and slightly crunchy—the perfect combination!"
+  },
+  {
+    "name": "Cornflake cookies",
+    "category": "Cookie",
+    "photoUrl": "https://live.staticflickr.com/5347/17892784650_f5a16f9a0a_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/like_the_grand_canyon/17892784650",
+    "description": "Cornflake Cookies are light and airy, with a hint of vanilla. They're crunchy on the outside, but soft in the middle—so you get the best of both worlds!"
+  },
+  {
+    "name": "Alfajores",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Alfajores-de-maicena-biscuits-recipe.jpg",
+    "photoAttribute": "Sara McCleary, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Alfajores are a traditional Argentinian cookie made with sugar, flour, egg, and dulce de leche, which is a sweetened milk product. They're usually served sandwiched together with a piece of dulce de leche in the middle. The cookies are soft and crumbly and have a very delicate flavor. The dulce de leche filling is sweet but not too sweet—it's the perfect amount of sweetness to balance out the other flavors in the cookie."
+  },
+  {
+    "name": "Benne Wafers",
+    "category": "Cookie",
+    "photoUrl": "https://live.staticflickr.com/5469/8836467272_f7234f88fc_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/wallyg/8836467272",
+    "description": "The taste of benne wafers is a little bit like the feeling you get when you're eating a fresh, warm cookie straight out of the oven. It's sweet, but not too sugary. It's buttery and rich, but not heavy or greasy. And it has just enough salt to make the whole thing brighten up your day."
+  },
+  {
+    "name": "Birthday Cake Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://www.publicdomainpictures.net/en/view-image.php?image=269155&picture=kitty-cookies",
+    "photoAttribute": "",
+    "description": "The taste of these cookies is like a birthday party in your mouth! They're the perfect mix of sweet and salty, and the sprinkles bring it all together."
+  },
+  {
+    "name": "Bizcochitos",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/e4/Fresh_batch_of_Biscochitos%2C_Albuquerque_NM.jpg",
+    "photoAttribute": "John Phelan, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "Bizcochitos are a traditional Mexican Christmas cookie, made with anise and sugar. They have a taste similar to the Italian biscotti, but with the added crunch and sweetness of sugar. They're best served as an accompaniment to coffee or tea, but we love them straight from the package!"
+  },
+  {
+    "name": "Chocolate Chocolate Chip Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Carob_chocolate_chip_cookies_with_coconut_and_cranberries.jpg",
+    "photoAttribute": "Keith McDuffee, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "These cookies are sweet, but not too sweet. They have a hint of chocolate, but it's not overpowering. The texture is soft and chewy."
+  },
+  {
+    "name": "Flourless Fudge Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://live.staticflickr.com/4062/4684352624_ab4138a459_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/26412869@N03/4684352624/",
+    "description": "Imagine: a cookie baked to perfection, with the perfect amount of chocolate chips, and the perfect amount of crunch. Now imagine that same cookie, but with no flour. And no sugar. And no butter. That's what we're talking about! A flourless fudge cookie that's as delicious as it is healthy."
+  },
+  {
+    "name": "Gaulettes cookies",
+    "category": "Cookie",
+    "photoUrl": "https://thumbs.dreamstime.com/b/chocolate-round-waffle-cookies-white-background-224245698.jpg",
+    "photoAttribute": "https://www.dreamstime.com/chocolate-round-waffle-cookies-white-background-image224245698",
+    "description": "Our Gaulettes cookies are the perfect balance of salty and sweet. They're big and crunchy, with a texture that's like a cross between gingerbread and chocolate chip. The inside is soft and chewy, and the outside is covered in a thin layer of coconut sugar. The combination of flavors and textures really do make these cookies one-of-a-kind!"
+  },
+  {
+    "name": "Italian Lemon Drop (Anginetti) cookies",
+    "category": "Cookie",
+    "photoUrl": "https://live.staticflickr.com/65535/51126568099_93ddcf2eaf_c.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/eatingintranslation/51126568099",
+    "description": "These cookies are the best of both worlds: they're crunchy like a traditional lemon drop, but they also have a soft, chewy center. They're lemony, sweet and tart, with just enough spice to make your tongue tingle. They're the perfect balance of sweet and sour."
+  },
+  {
+    "name": "Kolaczki",
+    "category": "Cookie",
+    "photoUrl": "https://live.staticflickr.com/7454/9548828135_9eb234509f_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/kurmanphotos/9548828135",
+    "description": "Kolaczki cookies are a traditional Polish cookie made with poppy seeds, vanilla, and walnuts. They're soft and crumbly, with a slight crunch from the poppy seeds. When you bite into one, you'll taste the sweetness of the vanilla and the nuttiness of the walnuts."
+  },
+  {
+    "name": "Lebkuchen",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/N%C3%BCrnberger_Lebkuchen.jpg",
+    "photoAttribute": "Leon Brocard from London, UK, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Lebkuchen cookies are a little bit sweet, and the perfect balance of cinnamon and nutmeg. They're also very soft, so you can break them up into little pieces with your fingers."
+  },
+  {
+    "name": "Linzer cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/84/Linzer_cookies_%285234191379%29.jpg",
+    "photoAttribute": "Simon S from Belgium, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Linzer cookies are traditionally made with raspberry jam, but they can also be made with apricot or strawberry preserves (or even just lemon curd). The jam adds a fruity flavor that pairs well with the spices in the cookie dough (cinnamon and cloves), as well as the sweet glaze on top."
+  },
+  {
+    "name": "Pinwheel cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/76/Pinwheel_cookies.jpg",
+    "photoAttribute": "Ed and Eddie, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "The taste of this cookie is like a warm summer breeze. It's light and airy, with just enough sweetness to make it feel like the perfect treat after a long day."
+  },
+  {
+    "name": "Pizzelle Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Pizzelle_in_a_loose_stack%2C_April_2010.jpg",
+    "photoAttribute": "Steve Snodgrass, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Our pizzelle cookies are the perfect combination of crispy and soft. They're easy to bake and taste delicious with a cup of coffee, or on their own as a snack!"
+  },
+  {
+    "name": "Pumpkin Spice Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://world.openfoodfacts.org/images/products/078/769/283/5324/front_en.10.400.jpg",
+    "photoAttribute": "https://world.openfoodfacts.org/product/0787692835324/pumpkin-spice-cookies-lenny-larry-s",
+    "description": "Our pumpkin spice cookies are so delicious, you'll want to keep them all for yourself! These cookies are perfectly crisp on the outside, with a soft and chewy center. And thanks to the real pumpkin, they're the perfect fit for fall!"
+  },
+  {
+    "name": "Red Velvet Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Red_Velvet_Cookies_-_Ray%27s_Confectionery%2C_Fatorda_-_Goa_-_IMG-20200811-WA0005.jpg/450px-Red_Velvet_Cookies_-_Ray%27s_Confectionery%2C_Fatorda_-_Goa_-_IMG-20200811-WA0005.jpg?20210329173407",
+    "photoAttribute": "https://commons.m.wikimedia.org/wiki/File:Red_Velvet_Cookies_-_Ray%27s_Confectionery,_Fatorda_-_Goa_-_IMG-20200811-WA0005.jpg",
+    "description": "These are soft and moist with a touch of vanilla. In between the layers of chocolate cookies, you will find a sweet vanilla cream center."
+  },
+  {
+    "name": "Stroopwafel Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Stroopwafels_01.jpg",
+    "photoAttribute": "Takeaway, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "These stroopwafel cookies are packed with make-you-grin, can’t-stop-eating flavor! The soft, chewy center gives way to an outer layer of crispy cooked sugar that is folded into the dough. As each cookie bakes, it captures the flavors and aromas of classic Dutch Baking. You’ll think you’re walking down a street in Amsterdam!"
+  },
+  {
+    "name": "Stroopwafel Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://live.staticflickr.com/7575/15846840567_bd64a97917_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/galant/15846840567",
+    "description": "Our cookies are rich and creamy, with a delicious crunch. They're the perfect dessert when you want to enjoy an indulgent treat without feeling guilty about it afterward."
+  },
+  {
+    "name": "Tea Cakes",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Russian_teacakes_%288307560889%29.jpg",
+    "photoAttribute": "Stacy Spensley, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "These tea cakes are a blend of aromatic Assam loose tea, sweet milk and spices. Each cake is made by hand and baked individually to ensure a soft, pillow-like texture."
+  },
+  {
+    "name": "Trash Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://live.staticflickr.com/4813/45659449164_30f4141b93_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/dolcedanielle/45659449164",
+    "description": "These cookies aren't just delicious, they're beautiful. Each cookie is hand-made and decorated individually, with care and love. Just try not to eat them all at once! The rich, gooey chocolate chips are baked in, so it's guaranteed that every bite will be full of chocolate goodness. These cookies will definitely be a hit at any party!"
+  },
+  {
+    "name": "Wafer Cookies",
+    "category": "Cookie",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/38/Pink_Wafers.jpg",
+    "photoAttribute": "TIM HOGGARTH, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "On the outside, Wafer Cookies have a crunchy exterior and a delicately chewy interior. But now comes the best part: Enjoying them while they're still warm from the oven."
+  },
+  {
+    "name": "Glazed Donuts",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/30/Krispy_Kreme_glazed_donuts_2.JPG",
+    "photoAttribute": "BrokenSphere, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "Taste the delicious delight of our glazed donuts. A soft and moist cake-like donut with a sweet glaze . The donuts are freshly made to order upon arrival, so you can enjoy them just as much as we do."
+  },
+  {
+    "name": "Boston Cream Donut",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/DD-Boston-Cream-Donut.jpg",
+    "photoAttribute": "Evan-Amos, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "The boston cream donuts at Dunkin' Donuts are made fresh, delicious, and ready to be enjoyed. The light, fluffy donut is filled with a thick layer of smooth and rich custard. The boston cream donut is then topped with a sweet vanilla frosting that adds a touch of sweetness for the perfect finish."
+  },
+  {
+    "name": "Sour Cream Donut",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sour_cream_glazed%2C2011-11-28.jpg",
+    "photoAttribute": "Pbj2199, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "Bringing back the good old days, these donuts are made using simple ingredients and have that classic sour cream taste. Classic Sour Cream Donuts have a delicious smell of freshly baked donuts that are sure to get your mouth watering."
+  },
+  {
+    "name": "Cronuts",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/8b/April_2016_Cronut%C2%AE_2_Burnt_Vanilla_Caramel_-_photo_by_Dominique_Ansel_Bakery.jpg",
+    "photoAttribute": "Jc2084, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Cronut Donuts are delicious, flaky pastries made of a croissant dough that's been fried and filled with the latest in food trends"
+  },
+  {
+    "name": "Picarones",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Peru_Picarones.jpg/800px-Peru_Picarones.jpg?20050131215631",
+    "photoAttribute": "https://commons.wikimedia.org/wiki/File:Peru_Picarones.jpg",
+    "description": "The delicious donuts taste like a soft cinnamon roll that's been baked. The cream filling is an orange flavor and tastes like a creamsicle. Our donut is sweet and crunchy, perfect for a breakfast treat any time of day!"
+  },
+  {
+    "name": "Sonhos",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sonhos_de_Natal.jpg",
+    "photoAttribute": "Adriao, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "If you are looking for an amazing donut, Sonhos Donut is the perfect place. Our donuts have a crisp and flaky outside, with a custard-like center that melts in your mouth. You Never forget the taste of the fresh vanilla ice cream sprinkled with saffron powder and your favorite topping"
+  },
+  {
+    "name": "Churros",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Sonhos_de_Natal.jpg",
+    "photoAttribute": "Adriao, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "If you love donuts, you’ll love these Churros Donuts. They’re made with just four ingredients and are served warm. With a crispy outer shell and a soft, pillowy interior, each bite offers a different flavor than the last: sweet and salty, fatty and fruity."
+  },
+  {
+    "name": "Rosquillas ",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b3/Rosquillas.JPG",
+    "photoAttribute": "Tamorlan, CC BY-SA 2.5 <https://creativecommons.org/licenses/by-sa/2.5>, via Wikimedia Commons",
+    "description": "Our donuts are baked fresh throughout the day, and come in a variety of classic and unique flavors. Our most popular is our Dulce de Leche flavor, which has a sweet caramel glaze that’s like sunshine for your mouth!"
+  },
+  {
+    "name": "Malasadas",
+    "category": "Donut",
+    "photoUrl": "https://live.staticflickr.com/4113/5034614760_00215b3003_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/fuzzy/5034614760",
+    "description": "Malasadas, a Portuguese word for “delicious” or “mouthfuls of goodness,” are the traditional New Orleans treat that became popular during carnival season in the 1960s. Malasadas were brought to Hawaii by Portuguese immigrants in the 1800s, and are now considered one of Hawaii’s most popular snacks. We handcraft our malasadas with a light fluffy interior and melt-in-your mouth delicious exterior."
+  },
+  {
+    "name": "Zeppole",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ee/American-made_zeppole.jpg",
+    "photoAttribute": "GrammarFascist, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "These light and fluffy donuts are filled with vanilla custard, then topped with fresh strawberry, raspberry, and blueberry. We recommend trying one of each!"
+  },
+  {
+    "name": "Bomboloni",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Bomboloni.jpg",
+    "photoAttribute": "Photo by Flickr user nromagna (Gianna Nannini ?), CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Bomboloni are a soft yeast donut that contains no trans fats, saturated fats or cholesterol. They are also customizable and can be served with icing, chocolate drizzle and more! A great treat for any occasion"
+  },
+  {
+    "name": "Beignet ",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Beignets_and_Caf%C3%A9_au_Lait_at_Caf%C3%A9_du_Monde%2C_New_Orleans.jpg",
+    "photoAttribute": "Pburka, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "The Beignet is a classic donut that has been a New Orleans favorite for generations. Light and fluffy with a crisp exterior, the Beignet is made of yeast dough that is fried to perfection. It's then topped with confectioners' sugar, cinnamon or even powdered sugar for added sweetness. Available in both a large size and mini version, this is the perfect treat to enjoy with friends!"
+  },
+  {
+    "name": "Berliner",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Berliner_Pfannkuchen_1.jpg",
+    "photoAttribute": "Sebastian Koppehel, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons",
+    "description": "The Berliner is a fluffy, eggy donut. We bake them in-house every day, starting at 5:00 am and offering them to customers by 5:30 am. The Berliner is our take on the classic American glazed donut."
+  },
+  {
+    "name": "Oliebollen",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/34/Oliebollen_2.jpg",
+    "photoAttribute": "Michelle_Boon, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Oliebollen taste like a delicious cross of a cinnamon sugar doughnut and warm, delicious Dutch buns. They are light on the inside and crunchy on the outside."
+  },
+  {
+    "name": "Loukoumades",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Loukoumades.jpg",
+    "photoAttribute": "Flickr.com user \"avlxyz\", CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "Loukoumades are sweet dessert donuts (also known as honey balls) that are traditionally fried in olive oil and sprinkled with cinnamon"
+  },
+  {
+    "name": "Krafne",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2c/Pokladnice_Kri%C5%BEevci_2008.JPG",
+    "photoAttribute": "SpeedyGonsales, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "Krfne is a donut with a soft and fluffy texture that melts in your mouth. We use the best ingredients in our dough, which includes fresh fruits and high quality chocolate. Try it today!"
+  },
+  {
+    "name": "Farsangi Fank",
+    "category": "Donut",
+    "photoUrl": "https://live.staticflickr.com/3516/3306154353_f851f05cb5_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/debreczeniemoke/3306154353",
+    "description": "Farsangi Fank is a donut that contains chocolate, fruit and cream with ice cream and sprinkles."
+  },
+  {
+    "name": "Spurgos",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0a/Var%C5%A1kin%C4%97s_spurgos.JPG",
+    "photoAttribute": "Bearas, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "The Spurgos donut is a delightful donut with a delicious taste. It has the sweet taste of vanilla, and it’s delightfully crispy on the outside. The inner texture is soft, fluffy, and delicious."
+  },
+  {
+    "name": "Paczki",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/37/Polish_p%C4%85czki_%281%29.jpg",
+    "photoAttribute": "MichalPL, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "The traditional Polish treat, paczki (pronounced PONCHKEE), is a fried dough pastry filled with your choice of fruit or custard. They're traditionally eaten on Fat Thursday, the last day before Lent."
+  },
+  {
+    "name": "Ponchiki",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Ponchiki_on_a_plate.jpg",
+    "photoAttribute": "Misharim, CC BY 4.0 <https://creativecommons.org/licenses/by/4.0>, via Wikimedia Commons",
+    "description": "Ponchiki is a tasty donut with a soft, sweet and fluffy texture. We use real vanilla flavor and fresh milk from local farms."
+  },
+  {
+    "name": "Pampushky",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Pampushky.jpg",
+    "photoAttribute": "Kagor at the Ukrainian language Wikipedia, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons",
+    "description": "The Pampushky is a pastry that is made to look like a donut, but tastes nothing like one. Enjoy the fun and fashionable design while indulging in your favorite flavor!"
+  },
+  {
+    "name": "Matcha",
+    "category": "Donut",
+    "photoUrl": "https://live.staticflickr.com/4074/4899662553_fd5b59fd17_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/donutgirl/4899662553",
+    "description": "A soft and chewy doughnut with a sweet, creamy filling that matches the green tea flavor in the dough."
+  },
+  {
+    "name": "Sata Andagi",
+    "category": "Donut",
+    "photoUrl": "https://live.staticflickr.com/8361/8322304131_fe51792a55_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/jpellgen/8322304131",
+    "description": "The Sata Andagi donut is a light and fluffy cake-type donut that is filled with sweet red bean paste. It is light enough to eat a bunch at a time and will satisfy your sweet tooth."
+  },
+  {
+    "name": "Mochi",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Mochi_Donut.jpg",
+    "photoAttribute": "Snoice, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Don't let the name fool you, our Mochi donut is far from being a soft and fluffy texture. It's actually crispy on the outside and fluffy on the inside, with a sweet, doughy flavor that's hard to resist."
+  },
+  {
+    "name": "Vegan Donut",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/72/Donuts_Vegan.jpg",
+    "photoAttribute": "Ogidya, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Our vegan donuts are light and fluffy, with just the right amount of sweetness, and they won’t weigh you down. We use delicious ingredients like coconut oil, vanilla bean paste and agave syrup to create our donuts which are dairy-free, soy-free and cholesterol-free."
+  },
+  {
+    "name": "Sushi Donuts",
+    "category": "Donut",
+    "photoUrl": "https://d1ralsognjng37.cloudfront.net/8cd32b02-4ac3-414f-9e91-522aa4adaa45.webp",
+    "photoAttribute": "",
+    "description": "Like fine sushi, these donuts are made to order. They arrive at your door warm and fresh. The donut itself is light and fluffy while the unagi filling is savory and delicate."
+  },
+  {
+    "name": "Youtiao",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/78/Youtiao.jpg",
+    "photoAttribute": "Popo le Chien, CC0, via Wikimedia Commons",
+    "description": "Youtiao, a Chinese breakfast staple, is a deep-fried strip of dough that is found on every street corner and in just about every Chinese household. It's a chewy, somewhat sweet breadstick with an addictive taste that can be eaten on its own or as part of a meal."
+  },
+  {
+    "name": "Jiandui",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/27/Jian_dui_in_London_%28Chinatown%29.jpg",
+    "photoAttribute": "MOs810, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Jiandui is a very delicious donut with a crisp and crunchy outside coating, moist and soft inside. It's filled with chocolate chips that keep your mouth watering for more. While you eat it, you can't resist to just take another bite!"
+  },
+  {
+    "name": "Shuangbaotai",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Taiwanesefriedfood1.jpg",
+    "photoAttribute": "lovesx-70, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Shuangbaotai is a donut that tastes like the most delicious things on earth, made completely from scratch. Unlike many donuts you'll find in stores, a Shuangbaotai is not made from a bag of premix batter. These are hand-crafted by skilled pastry chefs and take hours to perfect."
+  },
+  {
+    "name": "Shakoy",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Shakoy_doughnut.jpg",
+    "photoAttribute": "Obsidian Soul, CC0, via Wikimedia Commons",
+    "description": "Shakoy's donuts are a sweet treat, and we are so excited to tell you all about our most popular donut: Strawberry! The fresh dough, glazed with strawberry icing, is absolutely delicious."
+  },
+  {
+    "name": "Pa Thong Ko",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9e/%E0%B8%9B%E0%B8%B2%E0%B8%97%E0%B9%88%E0%B8%AD%E0%B8%87%E0%B9%82%E0%B8%81%E0%B9%8B.jpg",
+    "photoAttribute": "Phoebus 28, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Pa Thong Ko is a donut made with a combination of yeast, flour and egg. It's light, crunchy on the outside with an airy and chewy interior. Our donuts are made fresh every morning and can be ordered with your choice of toppings such as nutella and toasted coconut flakes."
+  },
+  {
+    "name": "Vada",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/10/Vada_2.jpg",
+    "photoAttribute": "Charles Haynes, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "The perfect combination of a donut and vada, the Vada is a classic favorite. It’s crispy outside and soft inside. Our Vada donuts have a balanced sweet and savory flavor – they are golden brown on the outside but not too sweet."
+  },
+  {
+    "name": "Gulgule",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Gulgule.jpg",
+    "photoAttribute": "Suyash Dwivedi, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Soft and fluffy, with a crispy outside, so gooey on the inside your fingers will get sticky."
+  },
+  {
+    "name": "Sel Roti",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Sel_Roti.jpg",
+    "photoAttribute": "Swapnet at English Wikipedia, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "Donuts are a go-to treat for many, but the Sel Roti donut has its own unique appeal. Its taste is described as light, fluffy and fresh, with a crisp sugar coating on top. The flavor of the inside is delicate and distinctively different from other donuts that you’ll find elsewhere."
+  },
+  {
+    "name": "Tulumba",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/77/Tulumba02.JPG",
+    "photoAttribute": "Maderibeyza, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "Tulumba is a donut that has a fluffy, light texture and a delicious cinnamon aroma. The texture is similar to a bagel, which makes it easy to eat without getting your hands messy."
+  },
+  {
+    "name": "Sufganiyot",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Classic_Hanukkah_sufganiyot.JPG",
+    "photoAttribute": "Noam Furer, CC0, via Wikimedia Commons",
+    "description": "This is a donut made of pillowy softness. It has been glazed with vanilla icing, making it sweet and bitter at the same time. It is a treat for your mouth."
+  },
+  {
+    "name": "Sfenj",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Sfenj_in_Marrakesh_Morocco.jpg",
+    "photoAttribute": "Jc wik m001, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "The donut is crispy and crunchy, with a warm and gooey center. The sugar on top gives the whole thing an extra burst of flavor and sweetness."
+  },
+  {
+    "name": "Koeksister",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/Koeksisters.JPG",
+    "photoAttribute": "DO'Neil, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons",
+    "description": "What if a donut were grilled, crunchy and dredged with powdered sugar and cinnamon? That’s what a koeksister is. It’s made from a yeast doughnut (you can make it from scratch or use store-bought) that gets pressed, sliced, battered and fried until golden brown."
+  },
+  {
+    "name": "Vetkoek",
+    "category": "Donut",
+    "photoUrl": "https://c.pxhere.com/photos/35/16/donuts_pastries_eating-757999.jpg!d",
+    "photoAttribute": "https://pxhere.com/en/photo/757999",
+    "description": "If you love donuts, you're going to love our Vetkoek. It's a fluffy, spicy and chewy Dutch delicacy that will give your taste buds a flavor overload."
+  },
+  {
+    "name": "Hot Jam Doughnuts",
+    "category": "Donut",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Hot_Jam_Doughnuts_%28cropped%29.jpg",
+    "photoAttribute": "Finbar.concaig, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Jam-filled doughnuts are an extremely popular treat that are often served at breakfast time. This premium doughnut is made with a cake dough base and filled with strawberry jam. Jam doughnuts are light and fluffy without being too sweet like other fruit-filled donuts. These delicious treats are perfect for breakfast or as a snack"
+  },
+  {
+    "name": "Vanilla",
+    "category": "Ice_Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Vanilla_Ice_Cream_Cone_at_Camp_Manitoulin.jpg",
+    "photoAttribute": "Steven Depolo, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Made from the freshest ingredients. Our vanilla ice cream tastes like a creamy bowl of vanilla bean heaven."
+  },
+  {
+    "name": "Chocolate",
+    "category": "Ice_Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/f/ff/2018-03-04_17_55_48_Large_serving_of_chocolate_soft-serve_ice_cream_at_the_Carvel_off_of_Denow_Road_in_Hopewell_Township%2C_Mercer_County%2C_New_Jersey.jpg",
+    "photoAttribute": "Famartin, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Chocolate ice cream has a rich, creamy texture that is velvety and smooth on your tongue, with a rich chocolaty flavor"
+  },
+  {
+    "name": "Chocolate Chip",
+    "category": "Ice_Cream",
+    "photoUrl": "https://live.staticflickr.com/4145/5033870639_c70a816b00.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/54397539@N06/5033870639",
+    "description": "You’ll be in chocolate heaven with our creamy, delicious Chocolate Chip Ice Cream. Full of rich, real chocolate chips and only the best ingredients, this is a 100% dairy ice cream that you can feel good about eating. It's so good it may become your new favorite!"
+  },
+  {
+    "name": "Butter Pecan",
+    "category": "Ice_Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Butter_pecan_caramel_ice_cream.jpg",
+    "photoAttribute": "kochtopf, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Butter pecan ice cream is a classic. It's creamy, salty, and sweet, with a hint of nutty butter. It's the perfect balance of flavors!"
+  },
+  {
+    "name": "Chocolate Chip Cookie Dough",
+    "category": "Ice_Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/7/70/Chocolate_chip_cookie_dough_ice_cream_with_orange_spoon.jpg",
+    "photoAttribute": "pamramsey, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "Chocolate Chip Cookie Dough ice cream is like a chocolate chip cookie in ice cream form. It's got all the same flavors: chocolate chips, vanilla, sugar and brown sugar. But it's creamier than a cookie, and you don't have to worry about getting crumbs everywhere when you eat it!"
+  },
+  {
+    "name": "Eggnog",
+    "category": "Ice_Cream",
+    "photoUrl": "https://live.staticflickr.com/3689/11506095255_05c86b933a_z.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/kridgway/11506095255",
+    "description": "There's nothing quite like eggnog ice cream during the holidays. It's rich and creamy, with just the right amount of sweetness. And the best part? The flavor of eggnog comes through perfectly."
+  },
+  {
+    "name": "Eskimo",
+    "category": "Ice_Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Iced_Akutaq.jpg",
+    "photoAttribute": "Matyáš Havel, CC BY-SA 3.0 <https://creativecommons.org/licenses/by-sa/3.0>, via Wikimedia Commons",
+    "description": "Eskimo ice cream is unlike any other ice cream you've ever tasted. It's made with a variety of ingredients including fish, seal oil, and reindeer milk, and has a unique, oily texture that takes some getting used to."
+  },
+  {
+    "name": "Strawberry",
+    "category": "Ice_Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/d/da/Strawberry_ice_cream_cone_%285076899310%29.jpg",
+    "photoAttribute": "TheCulinaryGeek from Chicago, USA, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "There's nothing quite like a strawberry ice cream on a hot summer day. The sweet, fruity flavor is like a little piece of heaven in your mouth. It's the perfect way to cool down and enjoy the warm weather."
+  },
+  {
+    "name": "Horchata",
+    "category": "Ice_Cream",
+    "photoUrl": "https://live.staticflickr.com/3886/14373555935_56415a885b_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/thomashawk/14373555935",
+    "description": "Horchata is a traditional drink from Spain that is made with tiger nuts, water, and sugar. It has a sweet and nutty flavor that is perfect for ice cream. The Horchata ice cream from Spain is made with tiger nuts, water, sugar, and cream."
+  },
+  {
+    "name": "Lemon Custard",
+    "category": "Ice_Cream",
+    "photoUrl": "https://live.staticflickr.com/4140/4808582485_1d01e1eee2_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/notahipster/4808582485",
+    "description": "There's nothing quite like the zesty, tart taste of lemon custard ice cream. It's the perfect summertime treat! The smooth, creamy custard is laced with tangy lemon flavor, making it a refreshing and indulgent treat."
+  },
+  {
+    "name": "Cookies ‘N Cream",
+    "category": "Ice_Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/0/02/Udders_Cookies_and_Cream_Ice_Cream.jpg",
+    "photoAttribute": "Carmenwongjw, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "There's nothing quite like the taste of Cookies 'N Cream ice cream. It's the perfect blend of sweet and creamy, with just the right amount of crunch from the cookies. It's a classic flavor that always hits the spot, no matter what the occasion."
+  },
+  {
+    "name": "Mint Chocolate Chip",
+    "category": "Ice_Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/2020-04-27_18_23_07_A_spoonful_of_Friendly%27s_Mint_Chocolate_Chip_Ice_Cream_in_the_Franklin_Farm_section_of_Oak_Hill%2C_Fairfax_County%2C_Virginia.jpg",
+    "photoAttribute": "Famartin, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "Mint Chocolate Chip ice cream is one of the most refreshing and flavorful ice cream flavors out there. The mint flavor is strong and invigorating, while the chocolate chips provide a smooth and rich taste. The combination of these two flavors is simply unforgettable."
+  },
+  {
+    "name": "Moose Tracks",
+    "category": "Ice_Cream",
+    "photoUrl": "https://live.staticflickr.com/4035/4482898467_c6c5e0bdf4_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/ginnerobot/4482898467",
+    "description": "Moose Tracks is a flavor of ice cream that is chocolate with peanut butter cups and fudge swirls. It is a very rich and creamy flavor that is also very sweet."
+  },
+  {
+    "name": "Neapolitan",
+    "category": "Ice_Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/43/Neapolitan.jpg",
+    "photoAttribute": "No machine-readable author provided. Pschemp assumed (based on copyright claims)., CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons",
+    "description": "There's nothing quite like the taste of Neapolitan ice cream. This flavor is a classic for a reason - it's simply delicious! Neapolitan ice cream is made with three flavors - chocolate, vanilla, and strawberry - all swirled together in one creamy, delicious pint. The chocolate and vanilla flavors are rich!"
+  },
+  {
+    "name": "Cotton Candy",
+    "category": "Ice_Cream",
+    "photoUrl": "https://live.staticflickr.com/8291/7705324222_c61d866d38_z.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/davidberkowitz/7705324222",
+    "description": "Cotton candy ice cream is one of the most unique and delicious flavors of ice cream out there. It has a light and airy flavor that is reminiscent of cotton candy itself. The ice cream is also flecked with pieces of real cotton candy, which add a fun and festive touch."
+  },
+  {
+    "name": "Butterscotch",
+    "category": "Ice_Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/ButterScotch-Waffle-IceCream_Scoop.jpg",
+    "photoAttribute": "IdeasCoach, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "There's something about butterscotch ice cream that just hits the spot. It's the perfect balance of sweet and rich, with a creamy texture that melts in your mouth. It's no wonder this flavor is a classic favorite."
+  },
+  {
+    "name": "German Chocolate Cake",
+    "category": "Ice_Cream",
+    "photoUrl": "https://live.staticflickr.com/4011/4679606588_5a33895224_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/kimberlykv/4679606588",
+    "description": "There's nothing quite like a rich, chocolatey German Chocolate Cake ice cream. The chocolate flavor is intense and the cake pieces add a lovely sweetness and texture. This is a must-try for any chocolate lover!"
+  },
+  {
+    "name": "Matcha",
+    "category": "Ice_Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Matcha_ice_cream_shiratama.jpg",
+    "photoAttribute": "Japanit matcha, CC BY-SA 4.0 <https://creativecommons.org/licenses/by-sa/4.0>, via Wikimedia Commons",
+    "description": "If you’ve never had matcha before, you’re in for a treat! Matcha ice cream is a delicious and refreshing treat that’s perfect for summer. The taste of matcha is often described as earthy, grassy, and slightly sweet. When combined with rich and creamy ice cream, the taste is unlike you ever had before."
+  },
+  {
+    "name": "Teaberry",
+    "category": "Ice_Cream",
+    "photoUrl": "http://www.icecreampark.com/img/teaberry-1.jpg",
+    "photoAttribute": "http://www.icecreampark.com/teaberry-icecream.html",
+    "description": "There's something special about Teaberry ice cream. It's hard to put your finger on it, but there's an unmistakable flavor that sets it apart from other ice cream flavors. It's a little bit like strawberry, a little bit like raspberry, and a little bit like tea."
+  },
+  {
+    "name": "Ube",
+    "category": "Ice_Cream",
+    "photoUrl": "https://www.publicdomainpictures.net/pictures/90000/velka/ube-ice-cream.jpg",
+    "photoAttribute": "",
+    "description": "If you've never had Ube ice cream before, you're in for a treat! This Filipino specialty is made with purple yams, which give the ice cream a unique flavor and color. Some say it tastes like a cross between a sweet potato and a vanilla bean. Others say it's more like a floral flavor with hints."
+  },
+    {
+    "name": "Reese’s Peanut Butter Cup",
+    "category": "Ice_Cream",
+    "photoUrl": "https://live.staticflickr.com/4135/4760606471_b8f3727b7e_z.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/27129991@N03/4760606471",
+    "description": "There's nothing quite like the taste of Reese's Peanut Butter ice cream. The rich, creamy peanut butter flavor is perfectly paired with the smooth, decadent ice cream. It's a heavenly combination that is sure to satisfy your sweet tooth. Whether you're a peanut butter lover or not, you'll definitely enjoy this delicious treat."
+  },
+  {
+    "name": "Cherry Garcia",
+    "category": "Ice_Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Cherry_garcia.JPG",
+    "photoAttribute": "Don.chulio, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons",
+    "description": "There's nothing quite like a scoop of Cherry Garcia ice cream. The rich, creamy flavor is studded with sweet cherries and pieces of chocolate. It's the perfect treat on a hot summer day."
+  },
+  {
+    "name": "Rocky Road",
+    "category": "Ice_Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/1/1c/Rockyroadicecream.jpg",
+    "photoAttribute": "stu_spivack, CC BY-SA 2.0 <https://creativecommons.org/licenses/by-sa/2.0>, via Wikimedia Commons",
+    "description": "Rocky Road ice cream is one of the most popular flavors of ice cream in the United States. It is made with chocolate ice cream, marshmallows, and nuts. The chocolate ice cream is usually made with chocolate chips or chocolate syrup. The marshmallows are usually mini marshmallows. The nuts can be any type."
+  },
+  {
+    "name": "Peanut Butter and Jelly",
+    "category": "Ice_Cream",
+    "photoUrl": "https://www.kleinworthco.com/wp-content/uploads/2014/08/20140808_26-copy-web-950.jpg",
+    "photoAttribute": "https://www.kleinworthco.com/peanut-butter-jelly-ice-cream/",
+    "description": "There's nothing quite like the taste of Peanut Butter and Jelly ice cream. The perfect combination of sweet and salty, with a creamy peanut butter flavor and a tart jelly flavor, it's a delicious treat that's perfect for any occasion."
+  },
+  {
+    "name": "Mango",
+    "category": "Ice_Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Mango_Ice_cream_at_Molave_Milk_Station.jpg",
+    "photoAttribute": "George Parrilla, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "There's nothing like a cold, creamy scoop of mango ice cream on a hot summer day. The sweet, juicy flavor of mangoes is the perfect complement to the rich, creamy texture of ice cream. And when it's made with real mangoes, it's even better!"
+  },
+  {
+    "name": "Pralines ‘n Cream",
+    "category": "Ice_Cream",
+    "photoUrl": "https://world.openfoodfacts.org/images/products/003/663/108/5154/front_en.3.full.jpg",
+    "photoAttribute": "https://world.openfoodfacts.org/product/0036631085154/pralines-n-cream-basking-robbins",
+    "description": "There's something about the perfect balance of sweet and salty that keeps us coming back for more when it comes to pralines 'n cream ice cream. The rich, creamy base is studded with crunchy bits of praline, and the whole thing is swirled with a sticky-sweet caramel sauce."
+  },
+  {
+    "name": "Chunky Monkey",
+    "category": "Ice_Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/b/be/Chunky_monkey.JPG",
+    "photoAttribute": "Don.chulio, CC BY-SA 3.0 <http://creativecommons.org/licenses/by-sa/3.0/>, via Wikimedia Commons",
+    "description": "Chunky Monkey is one of the most popular flavors of ice cream for a reason – it's insanely delicious! The combination of chocolate, banana, and nuts is a flavor bomb that will have your taste buds going crazy. The chocolate is rich and creamy, while the bananas add a sweetness and creaminess that takes the flavor to whole other level."
+  },
+  {
+    "name": "Salted Caramel",
+    "category": "Ice_Cream",
+    "photoUrl": "https://live.staticflickr.com/1464/26314112816_2df96c2d2e_b.jpg",
+    "photoAttribute": "https://www.flickr.com/photos/68147320@N02/26314112816",
+    "description": "There's nothing quite like the taste of salted caramel ice cream. It's the perfect blend of sweet and salty, with a creamy texture that melts in your mouth. The best part is, it's easy to make at home!"
+  },
+  {
+    "name": "Superman",
+    "category": "Ice_Cream",
+    "photoUrl": "https://upload.wikimedia.org/wikipedia/commons/8/82/Ice_cream_dish_-_superman_flavor.jpg",
+    "photoAttribute": "Carl Lender, CC BY 2.0 <https://creativecommons.org/licenses/by/2.0>, via Wikimedia Commons",
+    "description": "Superman ice cream is one of the most unique and flavorful ice creams out there. It has a strong vanilla flavor with a hint of blueberry, which gives it a superman-like feel. The blueberry flavor is not too overpowering, but it's definitely there. The ice cream is also a bit sweeter than most other ice cream flavors."
+  },
+  {
+    "name": "The Tonight Dough",
+    "category": "Ice_Cream",
+    "photoUrl": "https://world.openfoodfacts.org/images/products/007/684/048/5116/front_en.25.full.jpg",
+    "photoAttribute": "https://world.openfoodfacts.org/product/0076840485116/ben-jerry-s-the-tonight-dough",
+    "description": "There's something about The Tonight Dough ice cream that just hits the spot. It's the perfect balance of sweet and salty, with a hint of caramel and chocolate thrown in for good measure. It's rich and creamy, with a perfect consistency for scooping. And it's just plain delicious."
+  }
+]
