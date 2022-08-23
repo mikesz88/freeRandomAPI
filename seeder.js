@@ -33,9 +33,9 @@ const importData = async () => {
 
 const deleteData = async () => {
   try {
-    // await Dog.deleteMany();
-    // await Cat.deleteMany();
-    // await Museum.deleteMany();
+    await Dog.deleteMany();
+    await Cat.deleteMany();
+    await Museum.deleteMany();
     await Dessert.deleteMany();
     console.log('data deleted');
     process.exit();
