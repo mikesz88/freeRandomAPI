@@ -17,7 +17,7 @@ Table of Contents
   - ### [Much Better Documentation](https://documenter.getpostman.com/view/18924529/UzR1M3Jq)
     - This takes you to the Postman link that is a lot more user friendly.
     - It allows you to choose what language in order to call the data.
-  - ### [Good Enough](https://freerandomapi.herokuapp.com/)
+  - ### [Good Enough](https://freerandomapi.cyclic.app/)
     - This is the minimalist version of documentation! ;) 
   - ### Current API Categories
     - Dog Profiles With Images
