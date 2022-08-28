@@ -6,7 +6,7 @@ const filteredResults = (model) => async (req, res, next) => {
 
   let queryStr = JSON.stringify(reqQuery);
   queryStr = queryStr.replace(/\b(gt|gte|lt|lte|in)\b/g, match => `$${match}`);
-
+  
   query = model.find(JSON.parse(queryStr));
 
   if (req.query.select) {
@@ -26,7 +26,7 @@ const filteredResults = (model) => async (req, res, next) => {
   const limit = +req.query.limit || 25;
   const startIndex = (page - 1) * limit;
   const endIndex = page * limit;
-  const total = await model.countDocuments();
+  const total = await model.find(JSON.parse(queryStr)).countDocuments();
 
   query = query.skip(startIndex).limit(limit);
 

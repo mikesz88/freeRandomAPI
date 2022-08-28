@@ -4,9 +4,8 @@ const Dessert = require('../models/dessert');
 
 const router = Router();
 
-const { getDesserts, getDessertType } = require("../controller/dessert");
+const { getDesserts } = require("../controller/dessert");
 
 router.get('/', filteredResults(Dessert), getDesserts);
-router.get('/:category', filteredResults(Dessert), getDessertType);
 
 module.exports = router;
