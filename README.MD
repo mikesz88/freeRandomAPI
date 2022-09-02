@@ -23,6 +23,7 @@ Table of Contents
     - Dog Profiles With Images
     - Cat Profiles With Images
     - National Museums in USA With Images
+    - Dessert (Donutes, Cookies, Ice Cream) with Images
 
 ## How to contribute? <a name="contribute"></a>
 - ### You must be a member of the Devslopes-Herd and Devslopes Academy. You may not participate in this repo if you are not a member.
